@@ -1,9 +1,9 @@
 {
-  "name": "cloud.italia.it-site",
+  "name": "landingpagee-cie",
   "version": "1.0.0",
   "description": "Sito https://cloud.italia.it/",
   "main": "src/pages/index.js",
-  "repository": "git@github.com:italia/cloud.italia.it-site.git",
+  "repository": "git@github.com:teamdigitale/landingpage-cie.git",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
