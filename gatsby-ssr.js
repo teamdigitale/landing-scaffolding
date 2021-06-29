@@ -1,7 +1,8 @@
-import React from 'react';
-import { Layout } from './src/layouts/Layout.js';
+import React from "react";
+import { Layout } from "./src/layouts/Layout.js";
 
-export const wrapPageElement = ({ element, props }) => <Layout {...props}>{element}</Layout>;
+// export const wrapPageElement = ({ element, props }) => <Layout {...props}>{element}</Layout>;
+export const wrapPageElement = () => <div>Coming Soon...</div>;
 
 export const onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
   const mamotoScript = `
@@ -24,8 +25,16 @@ export const onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
   `;
 
   setHeadComponents([
-    <link rel="preconnect" href="https://ingestion.webanalytics.italia.it/mamoto.js" key="preconnect-matomo" />,
-    <link rel="preconnect" href="https://www.google-analytics.com/analytics.js" key="preconnect-ga" />,
+    <link
+      rel="preconnect"
+      href="https://ingestion.webanalytics.italia.it/mamoto.js"
+      key="preconnect-matomo"
+    />,
+    <link
+      rel="preconnect"
+      href="https://www.google-analytics.com/analytics.js"
+      key="preconnect-ga"
+    />,
   ]);
   setPostBodyComponents([
     <script key="matomo" dangerouslySetInnerHTML={{ __html: mamotoScript }} />,
