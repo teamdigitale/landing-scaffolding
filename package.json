@@ -1,9 +1,9 @@
 {
-  "name": "landingpagee-cie",
+  "name": "identitadigitale",
   "version": "1.0.0",
-  "description": "Sito xxx",
+  "description": "Sito https://identitadigitale.gov.it/",
   "main": "src/pages/index.js",
-  "repository": "git@github.com:teamdigitale/landing-scaffolding.git",
+  "repository": "git@github.com:teamdigitale/identitadigitale.gov.it.git",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
