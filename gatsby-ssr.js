@@ -1,8 +1,9 @@
 import React from "react";
 import { Layout } from "./src/layouts/Layout.js";
 
-// export const wrapPageElement = ({ element, props }) => <Layout {...props}>{element}</Layout>;
-export const wrapPageElement = () => <div>Coming Soon...</div>;
+export const wrapPageElement = ({ element, props }) => (
+  <Layout {...props}>{element}</Layout>
+);
 
 export const onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
   const mamotoScript = `
