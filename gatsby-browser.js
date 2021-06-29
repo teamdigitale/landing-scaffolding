@@ -1,8 +1,9 @@
-import React from 'react';
-import { Layout } from './src/layouts/Layout.js';
-import config from './gatsby-config.js';
+import React from "react";
+import { Layout } from "./src/layouts/Layout.js";
+import config from "./gatsby-config.js";
 
-export const wrapPageElement = ({ element, props }) => <Layout {...props}>{element}</Layout>;
+// export const wrapPageElement = ({ element, props }) => <Layout {...props}>{element}</Layout>;
+export const wrapPageElement = () => <div>Coming Soon...</div>;
 
 const mamotoTracking = (location) => {
   const { _paq } = window;
@@ -12,10 +13,10 @@ const mamotoTracking = (location) => {
 
   const { title } = document;
   const url = location && location.pathname + location.search + location.hash;
-  _paq.push(['setCustomUrl', url]);
-  _paq.push(['setDocumentTitle', title]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
+  _paq.push(["setCustomUrl", url]);
+  _paq.push(["setDocumentTitle", title]);
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
 };
 
 const gaTracking = () => {
@@ -23,7 +24,7 @@ const gaTracking = () => {
   if (!ga) {
     return;
   }
-  ga('send', 'pageview');
+  ga("send", "pageview");
 };
 
 export const onRouteUpdate = ({ location }) => {
