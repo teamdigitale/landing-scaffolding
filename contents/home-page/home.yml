@@ -1,17 +1,15 @@
-name: Cloud Italia - Il Cloud della Pubblica Amministrazione
+name: Identità Digitale - L'accesso semplice ai servizi online
+headerTitle: Ministro per l'innovazione tecnologica e la transizione digitale/Dipartimento
 heroStrategy:
-  category: La strategia nazionale del cloud per la PA
-  title: Realizziamo il sistema operativo del Paese
-  body: Definiamo la strategia per l’evoluzione tecnologica delle infrastrutture digitali della Pubblica
-    Amministrazione e abilitiamo l’adozione del modello cloud computing per servizi pubblici più sicuri ed
-    efficienti.
+  category: Identità digitale
+  title: Per un accesso semplice e sicuro ai servizi della PA
+  body: Un'unica credenziale per accedere a centinaia di servizi pubblici online messi a disposizione dalle Pubbliche Amministrazioni italiane.
   ctaAriaLabel: Scopri di più su la strategia nazionale cloud della PA
   altImg: Elemento simbolo nuvola commisto al logo Italia
 heroBenefit:
-  category: I vantaggi
-  title: Una strategia che porta beneficio all’intero sistema Paese
-  body: La trasformazione dei servizi pubblici attraverso l'adozione del cloud è essenziale per garantire ai cittadini di godere dei diritti digitali
-    e al Paese di crescere, competere e generare nuove opportunità per i professionisti e per il mercato.
+  category: Come funziona
+  title: SPID e CIE
+  body: Scegli tra il Sistema Pubblico di Identità Digitale SPID e la Carta di Identità Elettronica CIE
   altImg: Gruppo multietnico che lavora nel settore digitale
 benefits:
   - title: Per i cittadini
@@ -27,12 +25,10 @@ benefits:
       di servizi qualificati. Rappresentano un elemento di stimolo per il settore pubblico nel rivolgersi a un mercato
       maturo per le soluzioni cloud.
 heroEnablement:
-  category: Il Programma di Abilitazione
-  title: Come aderire al modello Cloud della PA
-  body: Il Dipartimento per la trasformazione digitale, in collaborazione con l’Agenzia per l’Italia Digitale
-    (AgID), ha elaborato un programma di abilitazione al cloud che definisce l’insieme di attività e risorse
-    utili alle amministrazioni per la migrazione di servizi e infrastrutture digitali verso il Cloud della PA.
-  ctaAriaLabel: Scopri di più su il programma di abilitazione
+  category: Per le PA
+  title: Promuovi l'identità digitale
+  body: Sei una Pubblica Amministrazione?<br>Scopri le risorse e gli strumenti per le tue campagne di comunicazione.
+  ctaAriaLabel: Per le PA
   altImg: Composizione con cavi di server e altri hardware
 heroQualification:
   category: La qualificazione dei servizi e il catalogo
@@ -42,30 +38,18 @@ heroQualification:
   ctaAriaLabel: Scopri di più su la qualificazione dei servizi e il catalogo
   altImg: Nuvola simbolo cloud, logo Italia, server e altri elementi hardware in commistione
 heroNews:
-  category: Le notizie
-  title: Articoli e approfondimenti
+  category: Vantaggi
+  title: Vantaggi
 newsPreview:
-  - ariaLabel: Next Generation Italia, approvato il piano del Governo (link esterno)
-    body: L'esecutivo ha dato il via libera in Consiglio dei ministri al Piano nazionale di ripresa e resilienza.
-    date: 30 aprile 2020
-    link: https://innovazione.gov.it/notizie/articoli/next-generation-italia-approvato-il-piano-del-governo/
-    source: 'Fonte: innovazione.gov.it'
-    title: Next Generation Italia, approvato il piano del Governo
-    type: Articolo
-  - ariaLabel: Cloud e infrastrutture digitali (link esterno)
+  - ariaLabel: Semplicità
+    body: Puoi contare su sistemi di identificazione certi e sicuri, che tutelano la provacy dei tuoi dati personali.
+    title: Semplicità
+  - ariaLabel: Sicurezza
     body: Uno degli obiettivi del PNRR è portare entro il 2026 circa il 75% delle PA italiane a utilizzare servizi in cloud, secondo un approccio cloud first.
-    date: 30 aprile 2020
-    link: https://innovazione.gov.it/notizie/articoli/cloud-e-infrastrutture-digitali/
-    source: 'Fonte: innovazione.gov.it'
-    title: Cloud e infrastrutture digitali
-    type: Approfondimento
-  - ariaLabel: Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali (link esterno)
-    body: Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali
-    date: 27 novembre 2020
-    link: https://innovazione.gov.it/notizie/articoli/sviluppiamo-il-sistema-operativo-a-partire-dalle-infrastrutture-digitali/
-    source: 'Fonte: innovazione.gov.it'
-    title: Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali
-    type: Articolo
+    title: Sicurezza
+  - ariaLabel: Risparmio
+    body: "Accedi in qualsiasi momento da diversi dispositivi: pc, smartphone e tablet."
+    title: Risparmio
 heroContribute:
   category: Come contribuire
   title: Partecipa al cambiamento, contribuisci a Cloud Italia!

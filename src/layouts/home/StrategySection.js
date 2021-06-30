@@ -1,5 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+
 import { HeroCategory } from '../../components/hero/HeroCategory.js';
 import { HeroTitle } from '../../components/hero/HeroTitle.js';
 import { HeroBody } from '../../components/hero/HeroBody.js';
@@ -10,6 +11,7 @@ import { Hero } from '../../components/hero/Hero.js';
 import content from '../../../contents/home-page/home.yml';
 import links from '../../../contents/links.yml';
 import labels from '../../../contents/labels.yml';
+
 const {
   heroStrategy: { category, title, body, ctaAriaLabel, altImg },
 } = content;
@@ -20,7 +22,7 @@ const { showMore } = labels;
 
 export const StrategySection = () => (
   <Hero>
-    <div className="row align-items-center">
+    <div id="identitadigitale" className="row align-items-center">
       <div className="offset-lg-1 col-lg-5 mt-4 mt-lg-0">
         <div className="text-center text-lg-left">
           <HeroCategory title={category} />
@@ -33,10 +35,11 @@ export const StrategySection = () => (
       </div>
       <HeroGraphic className="col-lg-6 d-flex align-items-center justify-content-center">
         <StaticImage
-          src="../../images/strategia_cloud_2x.png"
+          src="../../images/imgFake.png"
           alt={altImg}
           placeholder="blurred"
           formats={['AUTO', 'AVIF', 'WEBP']}
+          imgStyle={{ borderRadius: 20 }}
         />
       </HeroGraphic>
     </div>

@@ -23,6 +23,9 @@ const useStyles = createUseStyles({
     composes: 'swiper-pagination-bullet-active',
     backgroundColor: '#0066CC',
   },
+  cardBorder20: {
+    borderRadius: 20,
+  },
 });
 
 export const MobileSwiper = ({ slides }) => {
@@ -47,7 +50,7 @@ export const MobileSwiper = ({ slides }) => {
               lastSlideMessage: "Questa è l'ultima slide",
               paginationBulletMessage: 'Vai alla slide {{index}}',
             }}
-            className="bg-white shadow-lg"
+            className={`${classes.cardBorder20} shadow-lg`}
             slidesPerView={1}
             pagination={{
               el: `[data-swiper-id=${paginationId}]`,

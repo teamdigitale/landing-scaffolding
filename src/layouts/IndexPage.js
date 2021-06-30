@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import content from '../../contents/home-page/home.yml';
-import { NewsPreviewSection } from './home/NewsPreviewSection.js';
-import { HowToContributeSection } from './home/HowToContributeSection.js';
-import { StrategySection } from './home/StrategySection.js';
-import { BenefitSection } from './home/BenefitSection.js';
-import { EnablementSection } from './home/EnablementSection.js';
-import { QualificationSection } from './home/QualificationSection.js';
+import content from "../../contents/home-page/home.yml";
+import { NewsPreviewSection } from "./home/NewsPreviewSection.js";
+import { HowToContributeSection } from "./home/HowToContributeSection.js";
+import { StrategySection } from "./home/StrategySection.js";
+import { BenefitSection } from "./home/BenefitSection.js";
+import { EnablementSection } from "./home/EnablementSection.js";
+import { QualificationSection } from "./home/QualificationSection.js";
 
 export const IndexPage = () => (
   <>
@@ -15,9 +15,7 @@ export const IndexPage = () => (
     </div>
     <StrategySection />
     <BenefitSection />
-    <EnablementSection />
-    <QualificationSection />
     <NewsPreviewSection />
-    <HowToContributeSection />
+    <EnablementSection />
   </>
 );
