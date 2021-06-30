@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    name: 'Cloud Italia',
-    hostname: 'cloud.italia.it',
-    siteUrl: 'https://cloud.italia.it',
+    name: 'Identità Digitale',
+    hostname: 'identitadigitale.gov.it',
+    siteUrl: 'https://identitadigitale.gov.it/',
   },
   plugins: [
     'gatsby-plugin-sitemap',

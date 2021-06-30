@@ -1,16 +1,16 @@
 internalLinks:
   strategy:
-    linkTo: /strategia-cloud-pa/
-    label: Strategia
+    linkTo: "#identitadigitale"
+    label: Identità digitale
   enablement:
-    linkTo: /programma-abilitazione-cloud/
-    label: Programma di abilitazione
+    linkTo: "#comefunziona"
+    label: Come funziona
   services:
-    linkTo: /qualificazione-servizi-cloud/
-    label: Qualificazione servizi
+    linkTo: "#vantaggi"
+    label: Vantaggi
   catalogue:
-    linkTo: /catalogo-servizi-cloud/
-    label: Cos'è il catalogo dei servizi
+    linkTo: "#perlapa"
+    label: Per le PA
   glossary:
     linkTo: /glossario/
     label: Glossario
@@ -24,31 +24,31 @@ externalLinks:
   pianoTriennale:
     label: Piano triennale
     linkTo: https://pianotriennale-ict.italia.it/
-    ariaLabel: 'Piano triennale (link esterno)'
+    ariaLabel: "Piano triennale (link esterno)"
   developers:
     label: Developers
     linkTo: https://developers.italia.it/
-    ariaLabel: 'Developers Italia (link esterno)'
+    ariaLabel: "Developers Italia (link esterno)"
   designers:
     label: Designers
     linkTo: https://designers.italia.it/
-    ariaLabel: 'Designers Italia (link esterno)'
+    ariaLabel: "Designers Italia (link esterno)"
   forum:
     label: Forum
     linkTo: https://forum.italia.it/
-    ariaLabel: 'Forum Italia (link esterno)'
+    ariaLabel: "Forum Italia (link esterno)"
   docs:
     label: Docs
     linkTo: https://docs.italia.it/
-    ariaLabel: 'Docs Italia (link esterno)'
+    ariaLabel: "Docs Italia (link esterno)"
   github:
     label: GitHub
     linkTo: https://github.com/italia/
-    ariaLabel: 'GitHub Italia (link esterno)'
+    ariaLabel: "GitHub Italia (link esterno)"
   dipartimento:
     label: Dipartimento per la Trasformazione Digitale
     linkTo: https://innovazione.gov.it/dipartimento/
-    ariaLabel: 'Dipartimento per la Trasformazione Digitale (link esterno)'
+    ariaLabel: "Dipartimento per la Trasformazione Digitale (link esterno)"
   agid:
     label: AgID
     linkTo: https://www.agid.gov.it/
