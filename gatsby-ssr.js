@@ -6,14 +6,14 @@ export const wrapPageElement = ({ element, props }) => (
 );
 
 export const onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
-  const mamotoScript = `
+  const matomoScript = `
   var _paq = window._paq = window._paq || [];
   (function() {
     var u="https://ingestion.webanalytics.italia.it/";
     _paq.push(['setTrackerUrl', u+'matomo.php']);
     _paq.push(['setSiteId', 'ZVQ0Q5N0dY']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    g.type='text/javascript'; g.async=true; g.src='/assets/matomo.js'; s.parentNode.insertBefore(g,s);
   })();`;
 
   const gaScript = `
@@ -28,7 +28,7 @@ export const onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
   setHeadComponents([
     <link
       rel="preconnect"
-      href="https://ingestion.webanalytics.italia.it/mamoto.js"
+      href="https://ingestion.webanalytics.italia.it/matomo.js"
       key="preconnect-matomo"
     />,
     <link
@@ -38,7 +38,7 @@ export const onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
     />,
   ]);
   setPostBodyComponents([
-    <script key="matomo" dangerouslySetInnerHTML={{ __html: mamotoScript }} />,
+    <script key="matomo" dangerouslySetInnerHTML={{ __html: matomoScript }} />,
     <script key="ga" dangerouslySetInnerHTML={{ __html: gaScript }} />,
   ]);
 };
