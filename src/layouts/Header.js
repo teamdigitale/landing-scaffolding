@@ -16,9 +16,8 @@ import links from '../../contents/links.yml';
 import labels from '../../contents/labels.yml';
 import content from '../../contents/home-page/home.yml';
 import { HeaderNav } from '../components/HeaderNav.js';
-import { ExternalLink } from '../components/ExternalLink.js';
 
-const { internalLinks, externalLinks } = links;
+const { internalLinks } = links;
 const { ariaLabel, headerTitle, headerSubtitle } = labels;
 
 const useStyle = createUseStyles({
