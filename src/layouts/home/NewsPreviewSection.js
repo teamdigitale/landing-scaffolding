@@ -68,7 +68,7 @@ export const NewsPreviewSection = () => {
     <Hero>
       <div
         id="vantaggi"
-        className="row align-items-center justify-content-center"
+        className="row align-items-center justify-content-center px-lg-5"
       >
         <div className="text-center text-lg-left">
           <HeroCategory title={category} />

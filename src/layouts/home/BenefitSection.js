@@ -22,8 +22,8 @@ const { showSPID, showCIE } = labels;
 
 export const BenefitSection = () => (
   <Hero bgColor="light">
-    <div id="comefunziona" className="row align-items-center">
-      <HeroGraphic className="col-lg-6 d-flex align-items-center justify-content-center">
+    <div id="comefunziona" className="row align-items-center px-lg-5">
+      <HeroGraphic className="col-lg-6">
         <StaticImage
           src="../../images/imgFake02.png"
           alt={altImg}
@@ -31,24 +31,24 @@ export const BenefitSection = () => (
           formats={["AUTO", "AVIF", "WEBP"]}
         />
       </HeroGraphic>
-      <div className="offset-lg-1 col-lg-5 mt-4 mt-lg-0">
-        <div className="text-center text-lg-left">
+      <div className="col-lg-6 p-0">
+        <div className="text-center text-lg-left pl-lg-3">
           <HeroCategory title={category} />
           <HeroTitle title={title} linkTo={benefitHero.linkTop} />
           <HeroBody html={body} />
+          <HeroCtaContainer>
+            <Cta
+              text={showSPID}
+              linkTo={benefitHero.linkTo}
+              aria-label={ctaAriaLabel}
+            />
+            <Cta
+              text={showCIE}
+              linkTo={benefitHero.linkTo}
+              aria-label={ctaAriaLabel}
+            />
+          </HeroCtaContainer>
         </div>
-        <HeroCtaContainer>
-          <Cta
-            text={showSPID}
-            linkTo={benefitHero.linkTo}
-            aria-label={ctaAriaLabel}
-          />
-          <Cta
-            text={showCIE}
-            linkTo={benefitHero.linkTo}
-            aria-label={ctaAriaLabel}
-          />
-        </HeroCtaContainer>
       </div>
     </div>
   </Hero>

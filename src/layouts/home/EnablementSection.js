@@ -28,8 +28,8 @@ const { showMore } = labels;
 
 export const EnablementSection = () => (
   <Hero bgColor="primary">
-    <div id="perlapa" className="row align-items-center">
-      <div className="offset-lg-1 col-lg-5 mt-4 mt-lg-0">
+    <div id="perlapa" className="row align-items-center px-lg-5">
+      <div className="col-lg-6 p-0">
         <div className="text-center text-lg-left text-white">
           <HeroCategory title={category} />
           <HeroTitle
@@ -48,7 +48,7 @@ export const EnablementSection = () => (
           />
         </HeroCtaContainer>
       </div>
-      <HeroGraphic className="col-lg-6 d-flex align-items-center justify-content-center">
+      <HeroGraphic className="col-lg-6">
         <StaticImage
           src="../../images/imgFake03.png"
           alt={altImg}

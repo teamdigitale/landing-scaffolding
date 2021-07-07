@@ -22,8 +22,8 @@ const { showMore } = labels;
 
 export const StrategySection = () => (
   <Hero>
-    <div id="identitadigitale" className="row align-items-center">
-      <div className="offset-lg-1 col-lg-5 mt-4 mt-lg-0">
+    <div id="identitadigitale" className="row align-items-center px-lg-5">
+      <div className="col-lg-6 p-0">
         <div className="text-center text-lg-left">
           <HeroCategory title={category} />
           <HeroTitle title={title} linkTo={strategyHero.linkTop} />
@@ -37,7 +37,7 @@ export const StrategySection = () => (
           />
         </HeroCtaContainer>
       </div>
-      <HeroGraphic className="col-lg-6 d-flex align-items-center justify-content-center">
+      <HeroGraphic className="col-lg-6">
         <StaticImage
           src="../../images/imgFake01.png"
           alt={altImg}
