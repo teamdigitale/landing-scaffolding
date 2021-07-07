@@ -1,25 +1,25 @@
 module.exports = {
   siteMetadata: {
-    name: 'Cloud Italia',
-    hostname: 'cloud.italia.it',
-    siteUrl: 'https://cloud.italia.it',
+    name: "Identità Digitale",
+    hostname: "identitadigitale.gov.it",
+    siteUrl: "https://identitadigitale.gov.it",
   },
   plugins: [
-    'gatsby-plugin-sitemap',
-    'gatsby-plugin-jss',
-    'gatsby-plugin-react-helmet',
+    "gatsby-plugin-sitemap",
+    "gatsby-plugin-jss",
+    "gatsby-plugin-react-helmet",
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'contents',
+        name: "contents",
         path: `${__dirname}/contents`,
       },
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
-          'gatsby-remark-attr',
+          "gatsby-remark-attr",
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -32,8 +32,8 @@ module.exports = {
         ],
       },
     },
-    'gatsby-plugin-image',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
   ],
 };
