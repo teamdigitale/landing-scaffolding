@@ -38,7 +38,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-matomo",
       options: {
-        siteId: "OEDqe88pGg",
+        siteId: "zm6pM8j3nV",
         matomoUrl: `https://ingestion.webanalytics.italia.it/`,
         siteUrl: "https://identitadigitale.gov.it",
         matomoPhpScript: "matomo.php",
