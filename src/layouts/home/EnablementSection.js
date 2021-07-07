@@ -12,7 +12,14 @@ import links from "../../../contents/links.yml";
 import labels from "../../../contents/labels.yml";
 
 const {
-  heroEnablement: { category, title, body, ctaAriaLabel, altImg },
+  heroEnablement: {
+    category,
+    title,
+    body,
+    ctaAriaLabel,
+    altImg,
+    showMoreCustom,
+  },
 } = content;
 const {
   internalLinks: { enablement },
@@ -34,7 +41,7 @@ export const EnablementSection = () => (
         </div>
         <HeroCtaContainer>
           <Cta
-            text={showMore}
+            text={showMoreCustom}
             linkTo={enablement.linkTo}
             color="light"
             aria-label={ctaAriaLabel}
@@ -43,11 +50,10 @@ export const EnablementSection = () => (
       </div>
       <HeroGraphic className="col-lg-6 d-flex align-items-center justify-content-center">
         <StaticImage
-          src="../../images/imgFake.png"
+          src="../../images/imgFake03.png"
           alt={altImg}
           placeholder="blurred"
           formats={["AUTO", "AVIF", "WEBP"]}
-          imgStyle={{ borderRadius: 20 }}
         />
       </HeroGraphic>
     </div>
