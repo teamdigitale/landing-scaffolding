@@ -39,11 +39,10 @@ export const StrategySection = () => (
       </div>
       <HeroGraphic className="col-lg-6 d-flex align-items-center justify-content-center">
         <StaticImage
-          src="../../images/imgFake.png"
+          src="../../images/imgFake01.png"
           alt={altImg}
           placeholder="blurred"
           formats={["AUTO", "AVIF", "WEBP"]}
-          imgStyle={{ borderRadius: 20 }}
         />
       </HeroGraphic>
     </div>

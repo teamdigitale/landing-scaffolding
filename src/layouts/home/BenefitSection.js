@@ -23,6 +23,14 @@ const { showSPID, showCIE } = labels;
 export const BenefitSection = () => (
   <Hero bgColor="light">
     <div id="comefunziona" className="row align-items-center">
+      <HeroGraphic className="col-lg-6 d-flex align-items-center justify-content-center">
+        <StaticImage
+          src="../../images/imgFake02.png"
+          alt={altImg}
+          placeholder="blurred"
+          formats={["AUTO", "AVIF", "WEBP"]}
+        />
+      </HeroGraphic>
       <div className="offset-lg-1 col-lg-5 mt-4 mt-lg-0">
         <div className="text-center text-lg-left">
           <HeroCategory title={category} />
@@ -42,15 +50,6 @@ export const BenefitSection = () => (
           />
         </HeroCtaContainer>
       </div>
-      <HeroGraphic className="col-lg-6 d-flex align-items-center justify-content-center">
-        <StaticImage
-          src="../../images/imgFake.png"
-          alt={altImg}
-          placeholder="blurred"
-          formats={["AUTO", "AVIF", "WEBP"]}
-          imgStyle={{ borderRadius: 20 }}
-        />
-      </HeroGraphic>
     </div>
   </Hero>
 );

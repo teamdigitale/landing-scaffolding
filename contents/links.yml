@@ -13,7 +13,7 @@ internalLinks:
     linkTop: "#mainTop"
   catalogue:
     linkTo: "#perlapa"
-    label: Per le PA
+    label: Per la Pubblica Amministrazione
     linkTop: "#mainTop"
   glossary:
     linkTo: /glossario/

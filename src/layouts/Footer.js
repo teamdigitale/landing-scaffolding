@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import { createUseStyles } from 'react-jss';
-import links from '../../contents/links.yml';
-import labels from '../../contents/labels.yml';
-import { ExternalLink } from '../components/ExternalLink.js';
+import React from "react";
+import { Link } from "gatsby";
+import { createUseStyles } from "react-jss";
+import links from "../../contents/links.yml";
+import labels from "../../contents/labels.yml";
+import { ExternalLink } from "../components/ExternalLink.js";
 
 const {
   internalLinks: { privacy, credits },
@@ -14,26 +14,25 @@ const { footerA11y } = labels;
 
 const useStyle = createUseStyles({
   mainFooter: {
-    composes: 'it-footer-main',
-    backgroundColor: '#004080',
+    composes: "it-footer-main",
+    backgroundColor: "#004080",
   },
   slimFooter: {
-    composes: 'it-footer-small-prints py-4',
-    backgroundColor: '#01254C',
-    '& a': {
-      color: '#27D1D6',
+    composes: "it-footer-small-prints py-4",
+    backgroundColor: "#01254C",
+    "& a": {
+      color: "#27D1D6",
     },
   },
   footerLogo: {
-    height: '2.5rem',
+    height: "2.5rem",
   },
   logoSeparator: {
-    composes: 'mx-5 d-none d-md-block',
-    borderLeft: '1px solid #E6E9F2',
+    composes: "mx-2 d-none d-md-block",
   },
-  '@media (max-width: 300px)': {
+  "@media (max-width: 300px)": {
     footerLogo: {
-      height: '2rem',
+      height: "2rem",
     },
   },
 });
@@ -46,6 +45,15 @@ const SlimFooter = () => {
         <ul className="list-inline link-list mb-0 text-center text-md-left">
           <li className="list-inline-item mr-0 mr-md-5">
             <ExternalLink
+              linkTo="Contatti"
+              ariaLabel="noteLegali ariaLabel"
+              className="list-item mid-footer-link mx-4 mx-md-0"
+            >
+              Contatti
+            </ExternalLink>
+          </li>
+          <li className="list-inline-item mr-0 mr-md-5">
+            <ExternalLink
               linkTo={noteLegali.linkTo}
               ariaLabel={noteLegali.ariaLabel}
               className="list-item mid-footer-link mx-4 mx-md-0"
@@ -54,13 +62,11 @@ const SlimFooter = () => {
             </ExternalLink>
           </li>
           <li className="list-inline-item mr-0 mr-md-5">
-            <Link to={privacy.linkTo} className="list-item mid-footer-link mx-4 mx-md-0">
+            <Link
+              to={privacy.linkTo}
+              className="list-item mid-footer-link mx-4 mx-md-0"
+            >
               {privacy.label}
-            </Link>
-          </li>
-          <li className="list-inline-item mr-0 mr-md-5">
-            <Link to={credits.linkTo} className="list-item mid-footer-link mx-4 mx-md-0">
-              {credits.label}
             </Link>
           </li>
           <li className="list-inline-item mr-0 mr-md-5">
@@ -71,6 +77,14 @@ const SlimFooter = () => {
             >
               {a11y.label}
             </ExternalLink>
+          </li>
+          <li className="list-inline-item mr-0 mr-md-5">
+            <Link
+              to={credits.linkTo}
+              className="list-item mid-footer-link mx-4 mx-md-0"
+            >
+              {credits.label}
+            </Link>
           </li>
         </ul>
       </div>
@@ -84,27 +98,37 @@ const MainFooter = () => {
     <div className={classes.mainFooter}>
       <div className="container text-center text-md-left">
         <div className="row">
-          <div className="col-12 d-flex flex-column flex-md-row py-4">
-            <div className="py-3">
-              <ExternalLink linkTo={dipartimento.linkTo} ariaLabel={dipartimento.ariaLabel}>
+          <div className="col-12 d-flex flex-column flex-md-row px-5 pt-4 pb-0">
+            Progetto di
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12 d-flex flex-column flex-md-row px-5 pb-5 pt-3">
+            <div className="py-2">
+              <ExternalLink
+                linkTo={dipartimento.linkTo}
+                ariaLabel={dipartimento.ariaLabel}
+              >
                 <img
                   className={classes.footerLogo}
-                  src="/assets/dtd-logo.svg"
-                  alt="logo Dipartimento per la Trasformazione Digitale"
+                  src="/assets/repubblica-logo.svg"
+                  alt="Logo Repubblica Italiana"
                 />
               </ExternalLink>
             </div>
             <div aria-hidden="true" className={classes.logoSeparator} />
-            <div className="pt-3">
-              <ExternalLink linkTo={agid.linkTo} ariaLabel={agid.ariaLabel}>
-                <img className={classes.footerLogo} src="/assets/agid-logo.svg" alt="logo AgID" />
-              </ExternalLink>
+            <div className="py-1">
+              <div className="h5 mb-0">Nome</div>
+              <div className="h5 mb-0">dell'Amministrazione</div>
             </div>
           </div>
         </div>
-        <div className="row pb-4">
-          <div className="col-12 small" dangerouslySetInnerHTML={{ __html: footerA11y }}></div>
-        </div>
+        {/* <div className="row pb-4">
+          <div
+            className="col-12 small"
+            dangerouslySetInnerHTML={{ __html: footerA11y }}
+          ></div>
+        </div> */}
       </div>
     </div>
   );

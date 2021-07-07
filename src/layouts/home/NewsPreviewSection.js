@@ -42,8 +42,8 @@ export const NewsPreviewSection = () => {
     >
       <CardBody className="h-100 d-flex flex-column">
         <Icon
-          className="mt-5 mb-5"
-          icon="it-presentation"
+          className="mt-5 mb-3"
+          icon={news.icon}
           size="xl"
           color="primary"
           focusable={false}
