@@ -26,21 +26,13 @@ const useStyle = createUseStyles({
       fontSize: "0.78rem",
     },
   },
-  cardBorder20: {
-    borderRadius: 20,
-  },
 });
 
 export const NewsPreviewSection = () => {
   const classes = useStyle();
   const slides = newsPreview.map((news) => (
-    <Card
-      key={news.title}
-      teaser
-      noWrapper
-      className={`${classes.cardBorder20} shadow-lg`}
-    >
-      <CardBody className="h-100 d-flex flex-column">
+    <Card key={news.title} teaser noWrapper className="shadow-lg">
+      <CardBody className="h-100 d-flex flex-column py-5">
         <Icon
           className="mt-5 mb-3"
           icon={news.icon}
@@ -68,7 +60,7 @@ export const NewsPreviewSection = () => {
     <Hero>
       <div
         id="vantaggi"
-        className="row align-items-center justify-content-center"
+        className="row align-items-center justify-content-center px-lg-5"
       >
         <div className="text-center text-lg-left">
           <HeroCategory title={category} />
