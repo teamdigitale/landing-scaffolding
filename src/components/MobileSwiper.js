@@ -1,30 +1,27 @@
-import React, { useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
-import SwiperCore, { Pagination, A11y } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.min.css';
-import { createUseStyles } from 'react-jss';
+import React, { useEffect, useState } from "react";
+import PropTypes from "prop-types";
+import SwiperCore, { Pagination, A11y } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
+import { createUseStyles } from "react-jss";
 
 SwiperCore.use([Pagination, A11y]);
 
 const useStyles = createUseStyles({
   swiperSlide: {
-    '@global': {
+    "@global": {
       div: {
-        boxShadow: [['none'], '!important'],
+        boxShadow: [["none"], "!important"],
       },
     },
   },
   bullet: {
-    composes: 'swiper-pagination-bullet p-2',
-    margin: '0px 20px',
+    composes: "swiper-pagination-bullet p-2",
+    margin: "0px 20px",
   },
   activeBullet: {
-    composes: 'swiper-pagination-bullet-active',
-    backgroundColor: '#0066CC',
-  },
-  cardBorder20: {
-    borderRadius: 20,
+    composes: "swiper-pagination-bullet-active",
+    backgroundColor: "#0066CC",
   },
 });
 
@@ -44,13 +41,13 @@ export const MobileSwiper = ({ slides }) => {
           <Swiper
             a11y={{
               enabled: true,
-              prevSlideMessage: 'Slide precedente',
-              nextSlideMessage: 'Slide successiva',
-              firstSlideMessage: 'Questa è la prima slide',
+              prevSlideMessage: "Slide precedente",
+              nextSlideMessage: "Slide successiva",
+              firstSlideMessage: "Questa è la prima slide",
               lastSlideMessage: "Questa è l'ultima slide",
-              paginationBulletMessage: 'Vai alla slide {{index}}',
+              paginationBulletMessage: "Vai alla slide {{index}}",
             }}
-            className={`${classes.cardBorder20} shadow-lg`}
+            className="shadow-lg"
             slidesPerView={1}
             pagination={{
               el: `[data-swiper-id=${paginationId}]`,
@@ -68,7 +65,12 @@ export const MobileSwiper = ({ slides }) => {
         </div>
       </div>
       <div className="mt-4 pb-4 d-flex justify-content-center pt-3 d-lg-none">
-        {paginationId && <div data-swiper-id={paginationId} className="swiper-pagination"></div>}
+        {paginationId && (
+          <div
+            data-swiper-id={paginationId}
+            className="swiper-pagination"
+          ></div>
+        )}
       </div>
     </>
   );
