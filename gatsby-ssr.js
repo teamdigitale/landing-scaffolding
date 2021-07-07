@@ -25,19 +25,20 @@ export const onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
   `;
 
   setHeadComponents([
-    <link
-      rel="preconnect"
-      href="https://ingestion.webanalytics.italia.it/mamoto.js"
-      key="preconnect-matomo"
-    />,
-    <link
-      rel="preconnect"
-      href="https://www.google-analytics.com/analytics.js"
-      key="preconnect-ga"
-    />,
+    // <link
+    //   rel="preconnect"
+    //   href="https://ingestion.webanalytics.italia.it/mamoto.js"
+    //   key="preconnect-matomo"
+    // />,
+    // <link
+    //   rel="preconnect"
+    //   href="https://www.google-analytics.com/analytics.js"
+    //   key="preconnect-ga"
+    // />,
+    <meta name="robots" content="noindex"></meta>,
   ]);
   setPostBodyComponents([
-    <script key="matomo" dangerouslySetInnerHTML={{ __html: mamotoScript }} />,
-    <script key="ga" dangerouslySetInnerHTML={{ __html: gaScript }} />,
+    // <script key="matomo" dangerouslySetInnerHTML={{ __html: mamotoScript }} />,
+    // <script key="ga" dangerouslySetInnerHTML={{ __html: gaScript }} />,
   ]);
 };
