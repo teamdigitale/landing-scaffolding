@@ -2,15 +2,19 @@ internalLinks:
   strategy:
     linkTo: "#identitadigitale"
     label: Identità digitale
+    linkTop: "#mainTop"
   enablement:
     linkTo: "#comefunziona"
     label: Come funziona
+    linkTop: "#mainTop"
   services:
     linkTo: "#vantaggi"
     label: Vantaggi
+    linkTop: "#mainTop"
   catalogue:
     linkTo: "#perlapa"
     label: Per le PA
+    linkTop: "#mainTop"
   glossary:
     linkTo: /glossario/
     label: Glossario
