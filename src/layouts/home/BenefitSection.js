@@ -18,14 +18,14 @@ const {
 const {
   internalLinks: { enablement: benefitHero },
 } = links;
-const { showSPID, showCIE } = labels;
+const { showVideo } = labels;
 
 export const BenefitSection = () => (
   <Hero bgColor="light">
     <div id="comefunziona" className="row align-items-center px-lg-5">
       <HeroGraphic className="col-lg-6">
         <StaticImage
-          src="../../images/imgFake02.png"
+          src="../../images/imgFake01.png"
           alt={altImg}
           placeholder="blurred"
           formats={["AUTO", "AVIF", "WEBP"]}
@@ -38,12 +38,7 @@ export const BenefitSection = () => (
           <HeroBody html={body} />
           <HeroCtaContainer>
             <Cta
-              text={showSPID}
-              linkTo={benefitHero.linkTo}
-              aria-label={ctaAriaLabel}
-            />
-            <Cta
-              text={showCIE}
+              text={showVideo}
               linkTo={benefitHero.linkTo}
               aria-label={ctaAriaLabel}
             />

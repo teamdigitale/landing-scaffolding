@@ -1,66 +1,44 @@
-name: Identità Digitale - L'accesso semplice ai servizi online
-headerTitle: Ministro per l'innovazione tecnologica e la transizione digitale/Dipartimento
+name: Identità Digitale
+headerTitle: Dipartimento per la trasformazione digitale
 heroStrategy:
   category: Identità digitale
-  title: L'accesso semplice e sicuro ai servizi pubblici
-  body: Una credenziale unica per utilizzare i servizi online della Pubblica Amministrazione e <b>dei privati aderenti</b>
-  ctaAriaLabel: Scopri di più sull'accesso semplice e sicuro ai servizi pubblici (link esterno)
+  title: SPID e CIE
+  body: Richiedi il Sistema Pubblico di Identità Digitale (SPID) o la Carta di Identità Elettronica (CIE). L'identità digitale in Italia
+  ctaAriaLabelSpid: Scopri SPID (link esterno https://www.spid.gov.it/)
+  ctaAriaLabelCie: Scopri CIE (link esterno https://www.cartaidentita.interno.gov.it/)
   altImg: alt image description
 heroBenefit:
   category: Come funziona
-  title: SPID e CIE
-  body: Attiva il Sistema Pubblico di Identità Digitale SPID o la Carta di Identità Elettronica CIE. L'identità digitale in Italia
+  title: L'accesso semplice e sicuro ai servizi digitali
+  body: Una credenziale unica per utilizzare i servizi online della Pubblica Amministrazione e dei privati aderenti
+  ctaAriaLabel: Guarda lo spot (Link esterno a spot video youtube)
   altImg: alt image description
-benefits:
-  - title: Per i cittadini
-    body:
-      Servizi pubblici basati sul modello Cloud della PA garantiscono ai cittadini maggiore affidabilità, sicurezza e rispetto della privacy.
-      Sono servizi progettati in maniera innovativa che consentono economie di scala e favoriscono una riqualificazione della  spesa pubblica.
-  - title: Per le amministrazioni
-    body:
-      Le amministrazioni beneficiano di risparmi significativi da reinvestire nello sviluppo di nuovi servizi,
-      maggiore trasparenza sui costi e sull’utilizzo dei servizi, agilità e scalabilità nella gestione delle
-      infrastrutture.
-  - title: Per le piccole e medie imprese che operano nel settore pubblico
-    body:
-      Le piccole e medie imprese (PMI) nel settore delle tecnologie digitali sono chiamate ad accompagnare le
-      amministrazioni verso l’adozione di soluzioni in cloud per i propri servizi, aumentando la qualità e la quantità
-      di servizi qualificati. Rappresentano un elemento di stimolo per il settore pubblico nel rivolgersi a un mercato
-      maturo per le soluzioni cloud.
 heroEnablement:
-  category: Per la Pubblica Amministrazione
+  category: Kit di comunicazione
   title: Promuovi l'identità digitale
-  body: Scopri le risorse e gli strumenti per le tue campagne di comunicazione
-  ctaAriaLabel: Per le PA
+  body: Sei una Pubblica Amministrazione? Scopri i materiali e gli strumenti per le tue campagne di comunicazione
+  ctaAriaLabel: Scarica il Kit
   altImg: alt image description
   showMoreCustom: Scarica il kit
-heroQualification:
-  category: La qualificazione dei servizi e il catalogo
-  title: Il percorso di qualificazione e il catalogo dei servizi cloud
-  body:
-    Le amministrazioni possono acquisire servizi cloud solo se qualificati da AgID. I fornitori cloud devono sottoporre i servizi al processo di qualificazione che,
-    se in possesso dei requisiti, sono pubblicati e consultabili all’interno del catalogo AgID.
-  ctaAriaLabel: Scopri di più su la qualificazione dei servizi e il catalogo
-  altImg: alt image description
 heroNews:
   category: Vantaggi
-  title: Vantaggi
+  title: Vantaggi dell'identità digitale
 newsPreview:
-  - ariaLabel: Unica
-    body: la attivi una volta e accedi a centinaia di servizi online pubblici e a quelli dei privati aderenti.
-    title: Unica
-    icon: it-user
   - ariaLabel: Semplice
-    body: "facile da usare, la utilizzi in qualsiasi momento e da qualsiasi dispositivo: computer, tablet e smartphone."
+    body: la attivi una volta e accedi a centinaia di servizi pubblici  online e a quelli dei privati aderenti
     title: Semplice
+    icon: it-user
+  - ariaLabel: Veloce
+    body: "facile da usare, la utilizzi in qualsiasi momento e da qualsiasi dispositivo: computer, tablet e smartphone"
+    title: Veloce
     icon: it-check-circle
   - ariaLabel: Sicura
-    body: L’accesso ai servizi è protetto, anche grazie a solide verifiche di sicurezza. I tuoi dati non sono profilati e la tua privacy è garantita.
+    body: L’accesso ai servizi è protetto, anche grazie a solide verifiche di sicurezza. I tuoi dati non sono profilati e la tua privacy è garantita
     title: Sicura
     icon: it-locked
 heroContribute:
   category: Come contribuire
-  title: Partecipa al cambiamento, contribuisci a Cloud Italia!
+  title: Partecipa al cambiamento, contribuisci a Identità Digitale!
   body: Condividi informazioni, promuovi incontri sul tema cloud della PA nel tuo territorio e all’interno della tua organizzazione
 contributions:
   - body: Entra in

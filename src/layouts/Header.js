@@ -168,6 +168,8 @@ const NavHeader = () => {
                   </span>
                 </Link>
               </NavItem>
+            </Nav>
+            <Nav navbar>
               <NavItem>
                 <Link
                   to={internalLinks.catalogue.linkTo}

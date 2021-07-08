@@ -29,7 +29,7 @@ const { showMore } = labels;
 export const EnablementSection = () => (
   <Hero bgColor="primary">
     <div id="perlapa" className="row align-items-center px-lg-5">
-      <div className="col-lg-6 p-0">
+      <div className="col-lg-6 p-0 pr-lg-3">
         <div className="text-center text-lg-left text-white">
           <HeroCategory title={category} />
           <HeroTitle

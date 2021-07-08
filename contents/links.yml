@@ -1,19 +1,19 @@
 internalLinks:
   strategy:
-    linkTo: "#identitadigitale"
+    linkTo: "/#identitadigitale"
     label: Identità digitale
-    linkTop: "#mainTop"
+    linkTop: "/#mainTop"
   enablement:
-    linkTo: "#comefunziona"
+    linkTo: "/#comefunziona"
     label: Come funziona
     linkTop: "#mainTop"
   services:
-    linkTo: "#vantaggi"
+    linkTo: "/#vantaggi"
     label: Vantaggi
     linkTop: "#mainTop"
   catalogue:
-    linkTo: "#perlapa"
-    label: Per la Pubblica Amministrazione
+    linkTo: "/#perlapa"
+    label: Kit di comunicazione
     linkTop: "#mainTop"
   glossary:
     linkTo: /glossario/
@@ -24,7 +24,13 @@ internalLinks:
   credits:
     linkTo: /crediti/
     label: Crediti
+  noteLegali:
+    label: Note legali
+    linkTo: /note-legali/
 externalLinks:
+  strategy:
+    linkSpidExt: "https://www.spid.gov.it/"
+    linkCieExt: "https://www.cartaidentita.interno.gov.it/"
   pianoTriennale:
     label: Piano triennale
     linkTo: https://pianotriennale-ict.italia.it/
@@ -65,10 +71,6 @@ externalLinks:
     label: Open Data Cloud Marketplace
     linkTo: https://cloud.italia.it/marketplace/opendata
     ariaLabel: "Open data marketplace (link esterno)"
-  noteLegali:
-    label: Note legali
-    linkTo: https://www.governo.it/note-legali
-    ariaLabel: "Note legali (link esterno)"
   a11y:
     label: Dichiarazione di accessibilità
     linkTo: https://form.agid.gov.it/view/a527518d-a487-4972-81e9-a5ea7e1c9ace/

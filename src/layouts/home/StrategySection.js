@@ -13,17 +13,28 @@ import links from "../../../contents/links.yml";
 import labels from "../../../contents/labels.yml";
 
 const {
-  heroStrategy: { category, title, body, ctaAriaLabel, altImg },
+  heroStrategy: {
+    category,
+    title,
+    body,
+    ctaAriaLabelSpid,
+    ctaAriaLabelCie,
+    altImg,
+  },
 } = content;
 const {
   internalLinks: { strategy: strategyHero },
 } = links;
-const { showMore } = labels;
+const {
+  externalLinks: { strategy: strategyHeroExt },
+} = links;
+
+const { showMore, showSPID, showCIE } = labels;
 
 export const StrategySection = () => (
   <Hero>
     <div id="identitadigitale" className="row align-items-center px-lg-5">
-      <div className="col-lg-6 p-0">
+      <div className="col-lg-6 p-0 pr-lg-3">
         <div className="text-center text-lg-left">
           <HeroCategory title={category} />
           <HeroTitle title={title} linkTo={strategyHero.linkTop} />
@@ -31,15 +42,20 @@ export const StrategySection = () => (
         </div>
         <HeroCtaContainer>
           <Cta
-            text={showMore}
-            linkTo={strategyHero.linkTo}
-            aria-label={ctaAriaLabel}
+            text={showSPID}
+            linkTo={strategyHeroExt.linkSpidExt}
+            aria-label={ctaAriaLabelCie}
+          />
+          <Cta
+            text={showCIE}
+            linkTo={strategyHeroExt.linkCieExt}
+            aria-label={ctaAriaLabelCie}
           />
         </HeroCtaContainer>
       </div>
       <HeroGraphic className="col-lg-6">
         <StaticImage
-          src="../../images/imgFake01.png"
+          src="../../images/imgFake02.png"
           alt={altImg}
           placeholder="blurred"
           formats={["AUTO", "AVIF", "WEBP"]}
