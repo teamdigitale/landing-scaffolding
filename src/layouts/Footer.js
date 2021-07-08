@@ -6,8 +6,8 @@ import labels from "../../contents/labels.yml";
 import { ExternalLink } from "../components/ExternalLink.js";
 
 const {
-  internalLinks: { privacy, credits },
-  externalLinks: { dipartimento, agid, noteLegali, a11y },
+  internalLinks: { privacy, credits, noteLegali },
+  externalLinks: { dipartimento, agid, a11y },
 } = links;
 
 const { footerA11y } = labels;
@@ -53,13 +53,12 @@ const SlimFooter = () => {
             </ExternalLink>
           </li>
           <li className="list-inline-item mr-0 mr-md-5">
-            <ExternalLink
-              linkTo={noteLegali.linkTo}
-              ariaLabel={noteLegali.ariaLabel}
+            <Link
+              to={noteLegali.linkTo}
               className="list-item mid-footer-link mx-4 mx-md-0"
             >
               {noteLegali.label}
-            </ExternalLink>
+            </Link>
           </li>
           <li className="list-inline-item mr-0 mr-md-5">
             <Link
@@ -110,17 +109,18 @@ const MainFooter = () => {
                 ariaLabel={dipartimento.ariaLabel}
               >
                 <img
-                  className={classes.footerLogo}
+                  className={`${classes.footerLogo} pr-2`}
                   src="/assets/repubblica-logo.svg"
-                  alt="Logo Repubblica Italiana"
+                  alt="Logo Dipartimento per la trasformazione digitale"
+                />
+                <img
+                  className={classes.footerLogo}
+                  src="/assets/dtd.svg"
+                  alt="Logo Dipartimento per la trasformazione digitale"
                 />
               </ExternalLink>
             </div>
             <div aria-hidden="true" className={classes.logoSeparator} />
-            <div className="py-1">
-              <div className="h5 mb-0">Nome</div>
-              <div className="h5 mb-0">dell'Amministrazione</div>
-            </div>
           </div>
         </div>
         {/* <div className="row pb-4">

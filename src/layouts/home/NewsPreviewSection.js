@@ -34,7 +34,7 @@ export const NewsPreviewSection = () => {
     <Card key={news.title} teaser noWrapper className="shadow-lg">
       <CardBody className="h-100 d-flex flex-column py-5">
         <Icon
-          className="mt-5 mb-3"
+          className="mt-2 mb-1"
           icon={news.icon}
           size="xl"
           color="primary"
@@ -58,10 +58,7 @@ export const NewsPreviewSection = () => {
 
   return (
     <Hero>
-      <div
-        id="vantaggi"
-        className="row align-items-center justify-content-center px-lg-5"
-      >
+      <div id="vantaggi" className="row align-items-center px-lg-5">
         <div className="text-center text-lg-left">
           <HeroCategory title={category} />
           <HeroTitle title={title} linkTo="#mainTop" />
