@@ -44,15 +44,6 @@ const SlimFooter = () => {
       <div className="container">
         <ul className="list-inline link-list mb-0 text-center text-md-left">
           <li className="list-inline-item mr-0 mr-md-5">
-            <ExternalLink
-              linkTo="Contatti"
-              ariaLabel="noteLegali ariaLabel"
-              className="list-item mid-footer-link mx-4 mx-md-0"
-            >
-              Contatti
-            </ExternalLink>
-          </li>
-          <li className="list-inline-item mr-0 mr-md-5">
             <Link
               to={noteLegali.linkTo}
               className="list-item mid-footer-link mx-4 mx-md-0"

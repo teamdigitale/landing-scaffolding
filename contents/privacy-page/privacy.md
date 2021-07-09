@@ -64,6 +64,6 @@ Se non si desidera ricevere o memorizzare i cookie, si possono modificare le imp
 - [Edge](https://support.microsoft.com/it-it/help/4027947/microsoft-edge-delete-cookies){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='Edge (link esterno)'}
 - [Opera](https://help.opera.com/en/latest/web-preferences/#cookies){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='Opera (link esterno)'}
 
-LLe presenti informazioni sono aggiornate alla data riportata in calce a questa pagina.
+Le presenti informazioni sono aggiornate alla data riportata in calce a questa pagina.
 
 <p class="text-right"><em>ultimo aggiornamento: 15/07/2021</em></p>

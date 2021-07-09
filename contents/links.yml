@@ -28,7 +28,7 @@ internalLinks:
     label: Note legali
     linkTo: /note-legali/
 externalLinks:
-  strategy:
+  strategyExt:
     linkSpidExt: "https://www.spid.gov.it/"
     linkCieExt: "https://www.cartaidentita.interno.gov.it/"
   pianoTriennale:

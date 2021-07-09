@@ -1,5 +1,4 @@
 import React from "react";
-
 import content from "../../contents/home-page/home.yml";
 import { NewsPreviewSection } from "./home/NewsPreviewSection.js";
 import { StrategySection } from "./home/StrategySection.js";

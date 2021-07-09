@@ -1,5 +1,6 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import { createUseStyles } from "react-jss";
 
 import { HeroCategory } from "../../components/hero/HeroCategory.js";
 import { HeroTitle } from "../../components/hero/HeroTitle.js";
@@ -11,6 +12,7 @@ import { Hero } from "../../components/hero/Hero.js";
 import content from "../../../contents/home-page/home.yml";
 import links from "../../../contents/links.yml";
 import labels from "../../../contents/labels.yml";
+import { ExternalLink } from "../../components/ExternalLink.js";
 
 const {
   heroStrategy: {
@@ -26,41 +28,75 @@ const {
   internalLinks: { strategy: strategyHero },
 } = links;
 const {
-  externalLinks: { strategy: strategyHeroExt },
+  externalLinks: { strategyExt: strategyHeroExt },
 } = links;
 
 const { showMore, showSPID, showCIE } = labels;
 
-export const StrategySection = () => (
-  <Hero>
-    <div id="identitadigitale" className="row align-items-center px-lg-5">
-      <div className="col-lg-6 p-0 pr-lg-3">
-        <div className="text-center text-lg-left">
-          <HeroCategory title={category} />
-          <HeroTitle title={title} linkTo={strategyHero.linkTop} />
-          <HeroBody html={body} />
+const useStyles = createUseStyles({
+  btnPrimaryLight: {
+    // eslint-disable-next-line sonarjs/no-duplicate-string
+    backgroundColor: "var(--white)",
+    color: "var(--primary)",
+  },
+  verticalDelimiter: {
+    composes: "d-none d-xl-block mr-4",
+    borderLeft: "1px solid #E6E9F2",
+  },
+  whiteHighContrast: {
+    color: "var(--white)",
+    "&:hover": {
+      // Needed to grant high contrast for a11y
+      color: ["var(--white)", "!important"],
+    },
+  },
+  // This is a dirty hack to avoid pa11y issues with contrast ratio on noscript text content
+  a11yHighContrast: {
+    "@global": {
+      noscript: {
+        color: "white",
+      },
+    },
+  },
+});
+
+export const StrategySection = () => {
+  const classes = useStyles();
+  return (
+    <Hero>
+      <div id="identitadigitale" className="row align-items-center px-lg-5">
+        <div className="col-lg-6 p-0 pr-lg-3">
+          <div className="text-center text-lg-left">
+            <HeroCategory title={category} />
+            <HeroTitle title={title} linkTo={strategyHero.linkTop} />
+            <HeroBody html={body} />
+          </div>
+          <HeroCtaContainer>
+            <ExternalLink
+              linkTo={strategyHeroExt.linkSpidExt}
+              ariaLabel={ctaAriaLabelCie}
+              className="btn text-uppercase mx-4 ml-lg-0 my-2 btn-primary"
+            >
+              {showSPID}
+            </ExternalLink>
+            <ExternalLink
+              linkTo={strategyHeroExt.linkCieExt}
+              ariaLabel={ctaAriaLabelCie}
+              className="btn text-uppercase mx-4 ml-lg-0 my-2 btn-primary"
+            >
+              {showCIE}
+            </ExternalLink>
+          </HeroCtaContainer>
         </div>
-        <HeroCtaContainer>
-          <Cta
-            text={showSPID}
-            linkTo={strategyHeroExt.linkSpidExt}
-            aria-label={ctaAriaLabelCie}
+        <HeroGraphic className="col-lg-6">
+          <StaticImage
+            src="../../images/imgFake02.png"
+            alt={altImg}
+            placeholder="blurred"
+            formats={["AUTO", "AVIF", "WEBP"]}
           />
-          <Cta
-            text={showCIE}
-            linkTo={strategyHeroExt.linkCieExt}
-            aria-label={ctaAriaLabelCie}
-          />
-        </HeroCtaContainer>
+        </HeroGraphic>
       </div>
-      <HeroGraphic className="col-lg-6">
-        <StaticImage
-          src="../../images/imgFake02.png"
-          alt={altImg}
-          placeholder="blurred"
-          formats={["AUTO", "AVIF", "WEBP"]}
-        />
-      </HeroGraphic>
-    </div>
-  </Hero>
-);
+    </Hero>
+  );
+};
