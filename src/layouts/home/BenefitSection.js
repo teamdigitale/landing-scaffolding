@@ -34,7 +34,7 @@ export const BenefitSection = () => (
       <div className="col-lg-6 p-0">
         <div className="text-center text-lg-left pl-lg-3">
           <HeroCategory title={category} />
-          <HeroTitle title={title} linkTo={benefitHero.linkTop} />
+          <HeroTitle title={title} className="primary-color" />
           <HeroBody html={body} />
           <HeroCtaContainer>
             <Cta

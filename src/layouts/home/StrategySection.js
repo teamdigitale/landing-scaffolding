@@ -68,7 +68,7 @@ export const StrategySection = () => {
         <div className="col-lg-6 p-0 pr-lg-3">
           <div className="text-center text-lg-left">
             <HeroCategory title={category} />
-            <HeroTitle title={title} linkTo={strategyHero.linkTop} />
+            <HeroTitle title={title} className="primary-color" />
             <HeroBody html={body} />
           </div>
           <HeroCtaContainer>

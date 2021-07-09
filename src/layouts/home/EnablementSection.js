@@ -32,11 +32,7 @@ export const EnablementSection = () => (
       <div className="col-lg-6 p-0 pr-lg-3">
         <div className="text-center text-lg-left text-white">
           <HeroCategory title={category} />
-          <HeroTitle
-            title={title}
-            linkTo={enablement.linkTop}
-            className="text-white"
-          />
+          <HeroTitle title={title} className="text-white" />
           <HeroBody html={body} />
         </div>
         <HeroCtaContainer>
