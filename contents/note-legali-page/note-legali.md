@@ -5,10 +5,10 @@ La Presidenza del Consiglio dei Ministri - Dipartimento per la Trasformazione Di
 **Licenza dei contenuti**  
 In applicazione del principio open by default ai sensi dell’articolo 52 del decreto legislativo 7 marzo 2005, n. 82 (CAD) e salvo dove diversamente specificato (compresi i contenuti incorporati di terzi), i dati, i documenti e le informazioni pubblicati sul sito sono rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='https://creativecommons.org/licenses/by/4.0/legalcode.it (link esterno)'} Gli utenti sono quindi liberi di condividere (riprodurre, distribuire, comunicare al pubblico, esporre in pubblico, rappresentare, eseguire e recitare questo materiale con qualsiasi mezzo e formato) e modificare (trasformare il materiale e utilizzarlo per opere derivate) per qualsiasi fine, anche commerciale con il solo onere di attribuzione, senza apporre restrizioni aggiuntive.
 
-**Collegamenti a siti esterni e contenuti incorporati**
+**Collegamenti a siti esterni e contenuti incorporati**  
 I collegamenti a siti esterni di terzi, indicati nel presente sito, nonché i contenuti incorporati di terzi sono forniti come semplice servizio agli utenti. L’indicazione dei collegamenti a siti esterni di terzi o l’inserimento di contenuti incorporati di terzi non implica da parte della Presidenza del Consiglio dei Ministri alcun tipo di approvazione o condivisione di responsabilità in relazione alla legittimità, alla completezza e alla correttezza delle informazioni contenute nei siti indicati.
 
-**Social media policy**
+**Social media policy**  
 La Presidenza del Consiglio dei Ministri - Dipartimento per la Trasformazione Digitale utilizza i social media per finalità istituzionali, per accrescere la trasparenza e la conoscenza delle proprie attività: informa, comunica, ascolta e pubblica contenuti di carattere istituzionale.  
 I contenuti pubblicati comprendono immagini, video, comunicati stampa, informazioni di servizio, notizie relative all’attività del Dipartimento nonché opportunità di coinvolgimento e partecipazione dei cittadini.
 Attraverso i propri canali social, il Dipartimento può condividere e rilanciare contenuti e messaggi di pubblico interesse e utilità pubblicate da altri utenti.

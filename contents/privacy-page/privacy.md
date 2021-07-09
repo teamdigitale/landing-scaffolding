@@ -9,7 +9,7 @@ Titolare del Trattamento è la Presidenza del Consiglio dei Ministri - Dipartime
 - Email: [segreteria.trasformazionedigitale@governo.it](mailto:segreteria.trasformazionedigitale@governo.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='mail to segreteria.trasformazionedigitale@governo.it (link esterno)'}
 - PEC: [diptrasformazionedigitale@pec.governo.it](mailto:diptrasformazionedigitale@pec.governo.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='mail to segreteria.diptrasformazionedigitale@pec.governo.it (link esterno)'}
 
-**Responsabile per la protezione dei dati**
+**Responsabile per la protezione dei dati**  
 Il Responsabile per la protezione dei dati - Data Protection Officer, è contattabile ai seguenti recapiti:
 
 - Email: [responsabileprotezionedatipcm@governo.it](mailto:responsabileprotezionedatipcm@governo.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='mail to responsabileprotezionedatipcm@governo.it (link esterno)'}
@@ -20,7 +20,7 @@ L'invio facoltativo, esplicito e volontario di messaggi agli indirizzi di contat
 
 Tali dati saranno trattati dal Titolare, esclusivamente al fine di - e per il periodo necessario a - gestire le interazioni con l'utenza e rispondere a eventuali messaggi inviati, nell'esecuzione dei propri compiti di interesse pubblico o comunque connessi all'esercizio dei propri pubblici poteri.
 
-**Chi potrà conoscere i dati personali**
+**Chi potrà conoscere i dati personali**  
 Ti informiamo che i dati personali raccolti potranno essere oggetto di comunicazione a soggetti, interni o esterni alla Presidenza del Consiglio dei Ministri, nei confronti dei quali la comunicazione si configura come necessaria per il perseguimento delle finalità sopra specificate, compresi soggetti terzi che forniscono un servizio al Titolare, ad esempio per la fornitura di servizi tecnologici di questo portale e che tratteranno detti dati personali in qualità di responsabili del trattamento ai sensi e per gli effetti di cui all’articolo 28 del GDPR.
 
 L’elenco dei responsabili del trattamento può essere richiesto al Titolare in qualsiasi momento, scrivendo a [segreteria.trasformazionedigitale@governo.it](mailto:segreteria.trasformazionedigitale@governo.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='mail to segreteria.trasformazionedigitale@governo.it (link esterno)'}>
@@ -37,7 +37,7 @@ Ti ricordiamo che hai sempre diritto di:
 
 Per maggiori informazioni o esercitare i tuoi diritti contatta il Titolare agli indirizzi sopra indicati. Se invece ritieni che il trattamento dei dati personali a te riferiti avvenga in violazione di quanto previsto dal GDPR, hai anche diritto di proporre reclamo, ai sensi dell’art. 77 del GDPR, al Garante per la protezione dei dati personali.
 
-**Cookie**
+**Cookie**  
 identitadigitale.gov.it utilizza esclusivamente cookie per garantire il corretto funzionamento delle procedure e migliorare l'esperienza d'uso dei propri visitatori, il cui utilizzo non è strumentale alla raccolta di dati personali identificativi dell'utente.  
 I cookie sono piccoli file di testo che possono essere utilizzati dai siti web per rendere più efficiente l'esperienza per l'utente.  
 La legge afferma che possiamo memorizzare i cookie sul tuo dispositivo se sono strettamente necessari per il funzionamento del sito. Per tutti gli altri tipi di cookie è necessario il tuo permesso.  
@@ -53,7 +53,7 @@ In particolare, identitadigitale.gov.it si avvale di cookie analitici utilizzati
 
 Tali cookie vengono conservati per un periodo non superiore a 14 mesi dal momento della raccolta, salvo che la loro ulteriore conservazione non si renda necessaria per l’accertamento di reati.
 
-**Come disabilitare i cookie (opt-out) sul proprio dispositivo**
+**Come disabilitare i cookie (opt-out) sul proprio dispositivo**  
 La maggior parte dei browser accetta i cookie automaticamente, ma è possibile rifiutarli.  
 Se non si desidera ricevere o memorizzare i cookie, si possono modificare le impostazioni di sicurezza del browser utilizzato, secondo le istruzioni rese disponibili dai relativi fornitori ai link di seguito indicati. Nel caso in cui si disabilitino tutti i cookie il sito potrebbe non funzionare correttamente.
 

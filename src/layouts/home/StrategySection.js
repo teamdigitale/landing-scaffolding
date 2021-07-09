@@ -65,7 +65,7 @@ export const StrategySection = () => {
   return (
     <Hero>
       <div id="identitadigitale" className="row align-items-center px-lg-5">
-        <div className="col-lg-6 p-0 pr-lg-3">
+        <div className="col-lg-6 p-0 mt-3 mt-lg-0 px-lg-5 pr-lg-5">
           <div className="text-center text-lg-left">
             <HeroCategory title={category} />
             <HeroTitle title={title} className="primary-color" />
@@ -74,7 +74,7 @@ export const StrategySection = () => {
           <HeroCtaContainer>
             <ExternalLink
               linkTo={strategyHeroExt.linkSpidExt}
-              ariaLabel={ctaAriaLabelCie}
+              ariaLabel={ctaAriaLabelSpid}
               className="btn text-uppercase mx-4 ml-lg-0 my-2 btn-primary"
             >
               {showSPID}

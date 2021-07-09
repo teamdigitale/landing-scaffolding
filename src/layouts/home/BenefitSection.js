@@ -23,16 +23,16 @@ const { showVideo } = labels;
 export const BenefitSection = () => (
   <Hero bgColor="light">
     <div id="comefunziona" className="row align-items-center px-lg-5">
-      <HeroGraphic className="col-lg-6">
+      <HeroGraphic className="col-lg-6 p-0">
         <StaticImage
-          src="../../images/imgFake01.png"
+          src="../../images/test/testBig2.jpg"
           alt={altImg}
           placeholder="blurred"
           formats={["AUTO", "AVIF", "WEBP"]}
         />
       </HeroGraphic>
-      <div className="col-lg-6 p-0">
-        <div className="text-center text-lg-left pl-lg-3">
+      <div className="col-lg-6 p-0 pl-lg-5">
+        <div className="text-center text-lg-left mt-3 mt-lg-0 pl-lg-3">
           <HeroCategory title={category} />
           <HeroTitle title={title} className="primary-color" />
           <HeroBody html={body} />
