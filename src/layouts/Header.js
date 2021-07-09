@@ -16,8 +16,9 @@ import links from "../../contents/links.yml";
 import labels from "../../contents/labels.yml";
 import content from "../../contents/home-page/home.yml";
 import { HeaderNav } from "../components/HeaderNav.js";
+import { ExternalLink } from "../components/ExternalLink.js";
 
-const { internalLinks } = links;
+const { internalLinks, externalLinks } = links;
 const { ariaLabel, headerTitle, headerSubtitle } = labels;
 
 const useStyle = createUseStyles({
@@ -51,10 +52,15 @@ const useStyle = createUseStyles({
 
 const BrandSlimHeader = () => (
   <>
-    <span className="d-inline d-lg-none d-xl-inline text-white">
-      {content.headerTitle}
-    </span>
-    <span className="d-none d-lg-inline d-xl-none text-white">DTD</span>
+    <ExternalLink
+      linkTo={externalLinks.dipartimento.linkTo}
+      ariaLabel={externalLinks.dipartimento.ariaLabel}
+    >
+      <span className="d-inline d-lg-none d-xl-inline">
+        {externalLinks.dipartimento.label}
+      </span>
+      <span className="d-none d-lg-inline d-xl-none">DTD</span>
+    </ExternalLink>
   </>
 );
 

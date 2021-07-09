@@ -30,23 +30,19 @@ export const EnablementSection = () => (
   <Hero bgColor="primary">
     <div id="perlapa" className="row align-items-center px-lg-5">
       <div className="col-lg-6 p-0 pr-lg-3">
-        <div className="text-center text-lg-left text-white">
+        <div className="text-center text-lg-left text-white mt-3 mt-lg-0 px-lg-5">
           <HeroCategory title={category} />
-          <HeroTitle
-            title={title}
-            linkTo={enablement.linkTop}
-            className="text-white"
-          />
+          <HeroTitle title={title} className="text-white" />
           <HeroBody html={body} />
+          <HeroCtaContainer>
+            <Cta
+              text={showMoreCustom}
+              linkTo={enablement.linkTo}
+              color="light"
+              aria-label={ctaAriaLabel}
+            />
+          </HeroCtaContainer>
         </div>
-        <HeroCtaContainer>
-          <Cta
-            text={showMoreCustom}
-            linkTo={enablement.linkTo}
-            color="light"
-            aria-label={ctaAriaLabel}
-          />
-        </HeroCtaContainer>
       </div>
       <HeroGraphic className="col-lg-6">
         <StaticImage
