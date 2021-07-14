@@ -1,26 +1,6 @@
 homePage:
   title: Identita Digitale
   description: Richiedi SPID o CIE per accedere ai servizi pubblici online. SPID e CIE, l'identità digitale in Italia.
-strategyPage:
-  title: La strategia nazionale del cloud per la PA - Identità Digitale
-  description:
-    La strategia nazionale dedicata al cloud della PA indirizza il percorso di trasformazione delle amministrazioni verso servizi
-    e infrastrutture basate sul cloud computing
-enablementPage:
-  title: Il programma di abilitazione al cloud per la PA - Identità Digitale
-  description: Il programma di abilitazione al cloud per la PA offre strumenti e risorse per innovare i servizi digitali pubblici grazie a tecnologie e infrastrutture cloud
-qualificationPage:
-  title: Il percorso di qualificazione dei servizi cloud della PA - Identità Digitale
-  description: Informazioni utili sul percorso di qualificazione dei servizi cloud dedicati alla Pubblica Amministrazione italiana
-cataloguePage:
-  title: Cos’è il catalogo dei servizi cloud della PA - Identità Digitale
-  description: Cos’è e come funziona il catalogo dei servizi dedicati al cloud della Pubblica Amministrazione per acquisire servizi IaaS, PaaS e SaaS qualificati
-glossaryPage:
-  title: Il glossario dei termini dedicati al cloud della PA - Identità Digitale
-  description: Un elenco dei principali termini tecnici riferiti al modello del cloud computing applicato al settore delle amministrazioni pubbliche italiane
-newsPage:
-  title: Qui il titolo della sezione news - Identità Digitale
-  description: Qui la descrizione della sezione news
 privacyPage:
   title: Informativa privacy - Identità Digitale
   description: Informativa sulla gestione dei cookie del sito Identità Digitale
