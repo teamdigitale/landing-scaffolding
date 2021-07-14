@@ -90,7 +90,7 @@ export const StrategySection = () => {
         </div>
         <HeroGraphic className="col-lg-6">
           <StaticImage
-            src="../../images/section_01b.jpg"
+            src="../../images/section01.png"
             alt={altImg}
             placeholder="blurred"
             formats={["AUTO", "AVIF", "WEBP"]}

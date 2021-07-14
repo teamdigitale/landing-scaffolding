@@ -46,7 +46,7 @@ export const EnablementSection = () => (
       </div>
       <HeroGraphic className="col-lg-6">
         <StaticImage
-          src="../../images/imgFake03.png"
+          src="../../images/section03.png"
           alt={altImg}
           placeholder="blurred"
           formats={["AUTO", "AVIF", "WEBP"]}
