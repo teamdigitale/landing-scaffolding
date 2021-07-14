@@ -30,7 +30,7 @@ export const EnablementSection = () => (
   <Hero bgColor="primary">
     <div id="perlapa" className="row align-items-center px-lg-5">
       <div className="col-lg-6 p-0 pr-lg-3">
-        <div className="text-center text-lg-left text-white mt-3 mt-lg-0 px-lg-5">
+        <div className="text-center text-lg-left text-white mt-3 mt-lg-0 pr-lg-5">
           <HeroCategory title={category} />
           <HeroTitle title={title} className="text-white" />
           <HeroBody html={body} />
