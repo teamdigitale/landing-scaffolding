@@ -70,5 +70,6 @@ module.exports = {
         routeChangeEventName: "Click su Ancora",
       },
     },
+    "gatsby-plugin-no-index",
   ],
 };

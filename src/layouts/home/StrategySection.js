@@ -65,7 +65,7 @@ export const StrategySection = () => {
   return (
     <Hero>
       <div id="identitadigitale" className="row align-items-center px-lg-5">
-        <div className="col-lg-6 p-0 mt-3 mt-lg-0 px-lg-5 pr-lg-5">
+        <div className="col-lg-6 p-0 mt-3 mt-lg-0 pr-lg-5">
           <div className="text-center text-lg-left">
             <HeroCategory title={category} />
             <HeroTitle title={title} className="primary-color" />
@@ -90,7 +90,7 @@ export const StrategySection = () => {
         </div>
         <HeroGraphic className="col-lg-6">
           <StaticImage
-            src="../../images/imgFake02.png"
+            src="../../images/section01.png"
             alt={altImg}
             placeholder="blurred"
             formats={["AUTO", "AVIF", "WEBP"]}

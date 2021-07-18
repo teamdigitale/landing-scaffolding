@@ -25,7 +25,7 @@ export const BenefitSection = () => (
     <div id="comefunziona" className="row align-items-center px-lg-5">
       <HeroGraphic className="col-lg-6 p-0">
         <StaticImage
-          src="../../images/test/testBig2.jpg"
+          src="../../images/section02.png"
           alt={altImg}
           placeholder="blurred"
           formats={["AUTO", "AVIF", "WEBP"]}
