@@ -4,14 +4,14 @@ heroStrategy:
   category: Identità digitale
   title: SPID e CIE
   body: Richiedi il Sistema Pubblico di Identità Digitale (SPID) o la Carta di Identità Elettronica (CIE). L'identità digitale in Italia
-  ctaAriaLabelSpid: Scopri SPID (link esterno https://www.spid.gov.it/)
-  ctaAriaLabelCie: Scopri CIE (link esterno https://www.cartaidentita.interno.gov.it/)
+  ctaAriaLabelSpid: Scopri SPID (link esterno)
+  ctaAriaLabelCie: Scopri CIE (link esterno)
   altImg: giovane donna guarda lo schermo di un computer
 heroBenefit:
   category: Come funziona
   title: L'accesso semplice e sicuro ai servizi digitali
   body: Una credenziale unica per utilizzare i servizi online della Pubblica Amministrazione e dei privati aderenti
-  ctaAriaLabel: Guarda lo spot (Link esterno a spot video youtube)
+  ctaAriaLabel: Vai al video (Link esterno su Youtube)
   altImg: anziano su divano con tablet
 heroEnablement:
   category: Kit di comunicazione
