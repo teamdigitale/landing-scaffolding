@@ -47,7 +47,7 @@ export const MobileSwiper = ({ slides }) => {
               lastSlideMessage: "Questa è l'ultima slide",
               paginationBulletMessage: "Vai alla slide {{index}}",
             }}
-            className="shadow-lg"
+            className="bg-white shadow-lg"
             slidesPerView={1}
             pagination={{
               el: `[data-swiper-id=${paginationId}]`,
