@@ -48,8 +48,9 @@ export const EnablementSection = () => (
         <StaticImage
           src="../../images/section03.png"
           alt={altImg}
+          aria-label={altImg}
           placeholder="blurred"
-          formats={["AUTO", "AVIF", "WEBP"]}
+          formats={["AUTO"]}
         />
       </HeroGraphic>
     </div>

@@ -27,8 +27,9 @@ export const BenefitSection = () => (
         <StaticImage
           src="../../images/section02.png"
           alt={altImg}
+          aria-label={altImg}
           placeholder="blurred"
-          formats={["AUTO", "AVIF", "WEBP"]}
+          formats={["AUTO"]}
         />
       </HeroGraphic>
       <div className="col-lg-6 p-0 pl-lg-5">
