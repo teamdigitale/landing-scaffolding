@@ -113,7 +113,7 @@ const CenterHeader = () => {
   );
 };
 
-const NavHeader = () => {
+const NavHeader = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const closeMenu = () => setIsOpen(false);
   const toogleMenu = () => setIsOpen(!isOpen);
@@ -175,7 +175,7 @@ const NavHeader = () => {
                 </Link>
               </NavItem>
             </Nav>
-            <Nav navbar>
+            {/* <Nav navbar>
               <NavItem>
                 <Link
                   to={internalLinks.catalogue.linkTo}
@@ -188,7 +188,7 @@ const NavHeader = () => {
                   </span>
                 </Link>
               </NavItem>
-            </Nav>
+            </Nav> */}
           </div>
         </HeaderNav>
       </HeaderContent>
@@ -196,14 +196,17 @@ const NavHeader = () => {
   );
 };
 
-export const Header = () => (
-  <header id="mainTop">
-    <Headers>
-      <SlimHeader />
-      <div className="it-nav-wrapper">
-        <CenterHeader />
-        <NavHeader />
-      </div>
-    </Headers>
-  </header>
-);
+export const Header = (props) => {
+  console.log("Header", props);
+  return (
+    <header id="mainTop">
+      <Headers>
+        <SlimHeader />
+        <div className="it-nav-wrapper">
+          <CenterHeader />
+          <NavHeader showKit={props.showKit} />
+        </div>
+      </Headers>
+    </header>
+  );
+};
