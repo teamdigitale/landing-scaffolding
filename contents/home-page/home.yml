@@ -6,30 +6,30 @@ heroStrategy:
   body: Richiedi il Sistema Pubblico di Identità Digitale (SPID) o la Carta di Identità Elettronica (CIE). L'identità digitale in Italia
   ctaAriaLabelSpid: Scopri SPID (link esterno https://www.spid.gov.it/)
   ctaAriaLabelCie: Scopri CIE (link esterno https://www.cartaidentita.interno.gov.it/)
-  altImg: alt image description
+  altImg: giovane donna guarda lo schermo di un computer
 heroBenefit:
   category: Come funziona
   title: L'accesso semplice e sicuro ai servizi digitali
   body: Una credenziale unica per utilizzare i servizi online della Pubblica Amministrazione e dei privati aderenti
   ctaAriaLabel: Guarda lo spot (Link esterno a spot video youtube)
-  altImg: alt image description
+  altImg: anziano su divano con tablet
 heroEnablement:
   category: Kit di comunicazione
   title: Promuovi l'identità digitale
   body: Sei una Pubblica Amministrazione? Scopri i materiali e gli strumenti per le tue campagne di comunicazione
   ctaAriaLabel: Scarica il Kit
-  altImg: alt image description
+  altImg: Immagine decorativa, grafica con cassetta degli attrezzi
   showMoreCustom: Scarica il kit
 heroNews:
   category: Vantaggi
   title: Vantaggi dell'identità digitale
 newsPreview:
   - ariaLabel: Semplice
-    body: la attivi una volta e accedi a centinaia di servizi pubblici  online e a quelli dei privati aderenti
+    body: La attivi una volta e accedi a centinaia di servizi pubblici  online e a quelli dei privati aderenti
     title: Semplice
     icon: it-user
   - ariaLabel: Veloce
-    body: "facile da usare, la utilizzi in qualsiasi momento e da qualsiasi dispositivo: computer, tablet e smartphone"
+    body: "Facile da usare, la utilizzi in qualsiasi momento e da qualsiasi dispositivo: computer, tablet e smartphone"
     title: Veloce
     icon: it-check-circle
   - ariaLabel: Sicura

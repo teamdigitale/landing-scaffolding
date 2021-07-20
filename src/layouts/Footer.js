@@ -68,14 +68,14 @@ const SlimFooter = () => {
               {a11y.label}
             </ExternalLink>
           </li>
-          <li className="list-inline-item mr-0 mr-md-5">
+          {/* <li className="list-inline-item mr-0 mr-md-5">
             <Link
               to={credits.linkTo}
               className="list-item mid-footer-link mx-4 mx-md-0"
             >
               {credits.label}
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
@@ -102,7 +102,7 @@ const MainFooter = () => {
                 <img
                   className={`${classes.footerLogo} pr-2`}
                   src="/assets/repubblica-logo.svg"
-                  alt="Logo Dipartimento per la trasformazione digitale"
+                  alt="Logo della Repubblica Italiana"
                 />
                 <img
                   className={classes.footerLogo}

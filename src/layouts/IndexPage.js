@@ -5,14 +5,16 @@ import { StrategySection } from "./home/StrategySection.js";
 import { BenefitSection } from "./home/BenefitSection.js";
 import { EnablementSection } from "./home/EnablementSection.js";
 
-export const IndexPage = () => (
-  <>
-    <div className="sr-only">
-      <h1>{content.name}</h1>
-    </div>
-    <StrategySection />
-    <BenefitSection />
-    <NewsPreviewSection />
-    <EnablementSection />
-  </>
-);
+export const IndexPage = () => {
+  return (
+    <>
+      <div className="sr-only">
+        <h1>{content.name}</h1>
+      </div>
+      <StrategySection />
+      <BenefitSection />
+      <NewsPreviewSection />
+      {/* <EnablementSection /> */}
+    </>
+  );
+};
