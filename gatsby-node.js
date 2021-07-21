@@ -1,5 +1,4 @@
 const path = require('path');
-const fsPromises = require('fs/promises');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
