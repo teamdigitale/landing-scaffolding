@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     name: "Identità Digitale",
     hostname: "identitadigitale.gov.it",
-    siteUrl: "https://identitadigitale.gov.it",
+    siteUrl: "https://identitadigitale.gov.it/",
   },
   plugins: [
     "gatsby-plugin-sitemap",
@@ -35,5 +35,41 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-plugin-matomo",
+      options: {
+        siteId: "zm6pM8j3nV",
+        matomoUrl: `https://ingestion.webanalytics.italia.it/`,
+        siteUrl: "https://identitadigitale.gov.it",
+        matomoPhpScript: "matomo.php",
+        matomoJsScript: "matomo.js",
+        localScript: "/assets/matomo.js",
+        enableJSErrorTracking: true,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "G-Q21N3HDKYT",
+
+        // Include GTM in development.
+        //
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+
+        // datalayer to be set before GTM is loaded
+        // should be an object or a function that is executed in the browser
+        //
+        // Defaults to null
+        defaultDataLayer: { platform: "gatsby" },
+
+        // Name of the event that is triggered
+        // on every Gatsby route change.
+        //
+        // Defaults to gatsby-route-change
+        routeChangeEventName: "Click su Ancora",
+      },
+    },
+    "gatsby-plugin-no-index",
   ],
 };

@@ -17,7 +17,7 @@ jobs:
       - run: yarn clean
       - run: yarn build
       - run: |
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/teamdigitale/identitadigitale.gov.it.git
           echo identitadigitale.gov.it > public/CNAME
 
           yarn deploy
