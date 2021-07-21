@@ -10,6 +10,7 @@ import { Cta } from "../../components/hero/Cta.js";
 import content from "../../../contents/home-page/home.yml";
 import links from "../../../contents/links.yml";
 import labels from "../../../contents/labels.yml";
+import { ExternalLink } from "../../components/ExternalLink.js";
 
 const {
   heroBenefit: { category, title, body, ctaAriaLabel, altImg },
@@ -38,11 +39,13 @@ export const BenefitSection = () => (
           <HeroTitle title={title} className="primary-color" />
           <HeroBody html={body} />
           <HeroCtaContainer>
-            <Cta
-              text={showVideo}
+            <ExternalLink
               linkTo={benefitHero.linkTo}
-              aria-label={ctaAriaLabel}
-            />
+              ariaLabel={ctaAriaLabel}
+              className="btn text-uppercase mx-4 ml-lg-0 my-2 btn-primary"
+            >
+              {showVideo}
+            </ExternalLink>
           </HeroCtaContainer>
         </div>
       </div>
