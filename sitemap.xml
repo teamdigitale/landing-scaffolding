@@ -3,12 +3,7 @@
 <url> <loc>https://identitadigitale.gov.it/notizie/cloud</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://identitadigitale.gov.it/notizie/cybersecurity</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://identitadigitale.gov.it/notizie/spid</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://identitadigitale.gov.it/catalogo-servizi-cloud/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://identitadigitale.gov.it/crediti/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://identitadigitale.gov.it/glossario/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://identitadigitale.gov.it/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://identitadigitale.gov.it/note-legali/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://identitadigitale.gov.it/privacy-policy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://identitadigitale.gov.it/programma-abilitazione-cloud/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://identitadigitale.gov.it/qualificazione-servizi-cloud/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://identitadigitale.gov.it/strategia-cloud-pa/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
