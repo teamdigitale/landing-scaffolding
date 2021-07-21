@@ -30,7 +30,7 @@ export const BenefitSection = () => (
           alt={altImg}
           aria-label={altImg}
           placeholder="blurred"
-          formats={["AUTO"]}
+          formats={["auto", "webp", "avif"]}
         />
       </HeroGraphic>
       <div className="col-lg-6 p-0 pl-lg-5">
