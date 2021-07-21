@@ -197,7 +197,6 @@ const NavHeader = (props) => {
 };
 
 export const Header = (props) => {
-  console.log("Header", props);
   return (
     <header id="mainTop">
       <Headers>
