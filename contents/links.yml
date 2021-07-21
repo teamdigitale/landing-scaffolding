@@ -4,7 +4,7 @@ internalLinks:
     label: Identità digitale
     linkTop: "/#mainTop"
   enablement:
-    linkTo: "/#comefunziona"
+    linkTo: "https://www.youtube.com/watch?v=G-FMWZK4ZeM"
     label: Come funziona
     linkTop: "#mainTop"
   services:
@@ -73,5 +73,5 @@ externalLinks:
     ariaLabel: "Open data marketplace (link esterno)"
   a11y:
     label: Dichiarazione di accessibilità
-    linkTo: https://form.agid.gov.it/view/a527518d-a487-4972-81e9-a5ea7e1c9ace/
+    linkTo: https://form.agid.gov.it/view/db8b2168-fdc4-45a5-8cf5-285ccdcfc485
     ariaLabel: "Dichiarazione di accessibilità (link esterno)"

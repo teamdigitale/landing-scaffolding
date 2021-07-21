@@ -93,7 +93,7 @@ const MainFooter = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-12 d-flex flex-column flex-md-row px-5 pb-5 pt-3">
+          <div className="col-12 d-flex flex-column flex-md-row px-5 pb-4 pt-3">
             <div className="py-2">
               <ExternalLink
                 linkTo={dipartimento.linkTo}
@@ -114,12 +114,14 @@ const MainFooter = () => {
             <div aria-hidden="true" className={classes.logoSeparator} />
           </div>
         </div>
-        {/* <div className="row pb-4">
-          <div
-            className="col-12 small"
-            dangerouslySetInnerHTML={{ __html: footerA11y }}
-          ></div>
-        </div> */}
+        <div className="row">
+          <div className="col-12 d-flex flex-column flex-md-row px-5 pt-0 pb-4">
+            <div
+              className="small"
+              dangerouslySetInnerHTML={{ __html: footerA11y }}
+            ></div>
+          </div>
+        </div>
       </div>
     </div>
   );
