@@ -152,7 +152,7 @@ const NavHeader = (props) => {
               </NavItem>
               <NavItem>
                 <Link
-                  to={internalLinks.enablement.linkTo}
+                  to={internalLinks.enablement.homeLinkTo}
                   className="nav-link"
                   activeClassName="active"
                   onClick={closeMenu}
