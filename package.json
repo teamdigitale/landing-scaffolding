@@ -4,7 +4,7 @@
   "description": "Sito https://identitadigitale.gov.it/",
   "main": "src/pages/index.js",
   "repository": "git@github.com:teamdigitale/identitadigitale.gov.it.git",
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
