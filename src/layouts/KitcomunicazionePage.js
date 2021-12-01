@@ -122,6 +122,7 @@ export const KitcomunicazionePage = () => {
         <CardBody className="card-body pl-4 py-2">
           <ExternalLink
             linkTo={news.link}
+            ariaLabel={news.title}
             className="btn-icon text-decoration-none"
           >
             {news.title}
@@ -163,17 +164,17 @@ export const KitcomunicazionePage = () => {
               formats={["auto", "webp", "avif"]}
             />
           </HeroGraphic>
-          <div className="row col-6 pb-5">
-            <div class="section col-12 p-0">
-              <div class="section-content">
-                <div class="container">
-                  <div class="row mb-2">
-                    <div class="col-12">
+          <div className="row col-12 col-lg-6 pb-5">
+            <div className="section p-0">
+              <div className="section-content">
+                <div className="container">
+                  <div className="row mb-2">
+                    <div className="col-12">
                       <h4>Materiali</h4>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-6 pr-0 pr-md-5 mb-3">
+                  <div className="row">
+                    <div className="col-6 pr-0 pr-md-5 mb-3">
                       <Link
                         to="#guidaUtilizzoEl"
                         className="btn-icon text-decoration-none font-weight-semibold"
@@ -181,7 +182,7 @@ export const KitcomunicazionePage = () => {
                         Guida all'utilizzo
                       </Link>
                     </div>
-                    <div class="col-6 pr-0 pr-md-5 mb-3">
+                    <div className="col-6 pr-0 pr-md-5 mb-3">
                       <Link
                         to="#eventiIniziativeEl"
                         className="btn-icon text-decoration-none font-weight-semibold"
@@ -189,7 +190,7 @@ export const KitcomunicazionePage = () => {
                         Eventi iniziative
                       </Link>
                     </div>
-                    <div class="col-6 pr-0 pr-md-5 mb-3">
+                    <div className="col-6 pr-0 pr-md-5 mb-3">
                       <Link
                         to="#canaliDigitaliEl"
                         className="btn-icon text-decoration-none font-weight-semibold"
@@ -197,7 +198,7 @@ export const KitcomunicazionePage = () => {
                         Canali digitali
                       </Link>
                     </div>
-                    <div class="col-6 pr-0 pr-md-5 mb-3">
+                    <div className="col-6 pr-0 pr-md-5 mb-3">
                       <Link
                         to="#socialMediaEl"
                         className="btn-icon text-decoration-none font-weight-semibold"
@@ -214,54 +215,58 @@ export const KitcomunicazionePage = () => {
       </Hero>
       <Hero xPadding={false} yPadding={false}>
         <div id="guidaUtilizzoEl" className="row">
-          <h2 className="col-12 text-uppercase h4">Guida all'utilizzo</h2>
+          <h2 className="col-12 col-lg-6 text-uppercase h4">
+            Guida all'utilizzo
+          </h2>
           <p className="col-12">
             Scarica le linee guida per realizzare il materiale di comunicazione
           </p>
-          <div className="mt-4 col-12 d-none d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-2">
+          <div className="mt-4 col-12 d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-2">
             {dinamicContents(guidaUtilizzo)}
           </div>
         </div>
       </Hero>
       <Hero xPadding={false} yPadding={false}>
         <div id="eventiIniziativeEl" className="row">
-          <h2 className="col-12 text-uppercase h4">Eventi e iniziative</h2>
-          <p className="col-7">
+          <h2 className="col-12 col-lg-6 text-uppercase h4">
+            Eventi e iniziative
+          </h2>
+          <p className="col-12 col-lg-7">
             Scarica i template per realizzare il materiale da stampare in
             occasione eventi e iniziative. I pacchetti compressi (.zip)
             contengono i files in formato .ai (Adobe Illustrator), .pdf e .jpg
           </p>
-          <div className="mt-4 col-12 d-none d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-2">
+          <div className="mt-4 col-12 d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-2">
             {dinamicContents(eventiIniziative)}
           </div>
         </div>
       </Hero>
       <Hero xPadding={false} yPadding={false}>
         <div id="socialMediaEl" className="row">
-          <h2 className="col-12 text-uppercase h4">Social media</h2>
-          <p className="col-7">
+          <h2 className="col-12 col-lg-6 text-uppercase h4">Social media</h2>
+          <p className="col-12 col-lg-7">
             Scarica i template per realizzare il materiale di promozion sui
             Social media. I pacchetti compressi (.zip) contengono i files in
             formato .ai (Adobe Illustrator), .pdf e .jpg
           </p>
-          <div className="mt-4 col-12 d-none d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-2">
+          <div className="mt-4 col-12 d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-2">
             {dinamicContents(socialMedia)}
           </div>
         </div>
       </Hero>
       <Hero xPadding={false} yPadding={false}>
-        <div id="canaliDigitaliEl" vclassName="row">
-          <h2 className="col-12 text-uppercase h4">Canali digitali</h2>
-          <p className="col-7">
+        <div id="canaliDigitaliEl" className="row">
+          <h2 className="col-12 col-lg-6 text-uppercase h4">Canali digitali</h2>
+          <p className="col-12 col-lg-7">
             Scarica il materiale utile per la promozione sui siti web, blog,
             testate giornalistiche e newsletter. Il pacchetto compresso (.zip)
             contiene files in formato .ai (Adobe Illustrator), .pdf e .jpg
           </p>
-          <div className="mt-4 col-12 d-none d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-2">
+          <div className="mt-4 col-12 d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-2">
             {dinamicContents(canaliDigitali)}
           </div>
         </div>
-        <p class="text-right">
+        <p className="text-right">
           <em>ultimo aggiornamento: 01/12/2021</em>
         </p>
       </Hero>
