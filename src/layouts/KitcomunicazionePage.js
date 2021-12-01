@@ -107,7 +107,7 @@ export const KitcomunicazionePage = () => {
         key={news.title}
         teaser
         noWrapper
-        className="card d-flex flex-row rounded m-0 shadow-lg p-0 pl-1 align-items-center mb-3"
+        className="card d-flex flex-row rounded m-0 shadow-lg p-1 align-items-center mb-3"
       >
         <div className="img-responsive-wrapper pl-2">
           <Icon
@@ -143,7 +143,7 @@ export const KitcomunicazionePage = () => {
         yPaddingXLScreen={false}
       >
         <Breadcrumb currentPage={content.breadcrumb} />
-        <div className="row mt-5 px-lg-5 mb-5">
+        <div className="row mt-5 px-lg-5">
           <div className="col-lg-6 p-0 mt-3 mt-lg-0 pr-lg-5">
             <div className="text-center text-lg-left">
               <HeroTitle title={title} />
@@ -164,8 +164,8 @@ export const KitcomunicazionePage = () => {
               formats={["auto", "webp", "avif"]}
             />
           </HeroGraphic>
-          <div className="row col-12 col-lg-6 pb-5">
-            <div className="section p-0">
+          <div className="row col-12 col-lg-6 pt-3 pb-5">
+            <div className="section p-0 text-center text-lg-left">
               <div className="section-content">
                 <div className="container">
                   <div className="row mb-2">
@@ -215,10 +215,10 @@ export const KitcomunicazionePage = () => {
       </Hero>
       <Hero xPadding={false} yPadding={false}>
         <div id="guidaUtilizzoEl" className="row">
-          <h2 className="col-12 col-lg-6 text-uppercase h4">
+          <h2 className="col-12 col-lg-6 h4 text-center text-lg-left">
             Guida all'utilizzo
           </h2>
-          <p className="col-12">
+          <p className="col-12 text-center text-lg-left">
             Scarica le linee guida per realizzare il materiale di comunicazione
           </p>
           <div className="mt-4 col-12 d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-2">
@@ -228,10 +228,10 @@ export const KitcomunicazionePage = () => {
       </Hero>
       <Hero xPadding={false} yPadding={false}>
         <div id="eventiIniziativeEl" className="row">
-          <h2 className="col-12 col-lg-6 text-uppercase h4">
+          <h2 className="col-12 col-lg-6 h4 text-center text-lg-left">
             Eventi e iniziative
           </h2>
-          <p className="col-12 col-lg-7">
+          <p className="col-12 col-lg-7 text-center text-lg-left">
             Scarica i template per realizzare il materiale da stampare in
             occasione eventi e iniziative. I pacchetti compressi (.zip)
             contengono i files in formato .ai (Adobe Illustrator), .pdf e .jpg
@@ -243,8 +243,10 @@ export const KitcomunicazionePage = () => {
       </Hero>
       <Hero xPadding={false} yPadding={false}>
         <div id="socialMediaEl" className="row">
-          <h2 className="col-12 col-lg-6 text-uppercase h4">Social media</h2>
-          <p className="col-12 col-lg-7">
+          <h2 className="col-12 col-lg-6 h4 text-center text-lg-left">
+            Social media
+          </h2>
+          <p className="col-12 col-lg-7 text-center text-lg-left">
             Scarica i template per realizzare il materiale di promozion sui
             Social media. I pacchetti compressi (.zip) contengono i files in
             formato .ai (Adobe Illustrator), .pdf e .jpg
@@ -256,8 +258,10 @@ export const KitcomunicazionePage = () => {
       </Hero>
       <Hero xPadding={false} yPadding={false}>
         <div id="canaliDigitaliEl" className="row">
-          <h2 className="col-12 col-lg-6 text-uppercase h4">Canali digitali</h2>
-          <p className="col-12 col-lg-7">
+          <h2 className="col-12 col-lg-6 h4 text-center text-lg-left">
+            Canali digitali
+          </h2>
+          <p className="col-12 col-lg-7 text-center text-lg-left">
             Scarica il materiale utile per la promozione sui siti web, blog,
             testate giornalistiche e newsletter. Il pacchetto compresso (.zip)
             contiene files in formato .ai (Adobe Illustrator), .pdf e .jpg
