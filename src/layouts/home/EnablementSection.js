@@ -22,7 +22,7 @@ const {
   },
 } = content;
 const {
-  internalLinks: { enablement },
+  internalLinks: { glossary },
 } = links;
 const { showMore } = labels;
 
@@ -37,7 +37,7 @@ export const EnablementSection = () => (
           <HeroCtaContainer>
             <Cta
               text={showMoreCustom}
-              linkTo={enablement.linkTo}
+              linkTo={glossary.linkTo}
               color="light"
               aria-label={ctaAriaLabel}
             />
