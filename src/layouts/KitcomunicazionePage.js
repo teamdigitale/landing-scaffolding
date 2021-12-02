@@ -143,7 +143,7 @@ export const KitcomunicazionePage = () => {
         yPaddingXLScreen={false}
       >
         <Breadcrumb currentPage={content.breadcrumb} />
-        <div className="row mt-5 px-lg-5">
+        <div className="row mt-5 px-lg-4">
           <div className="col-lg-6 p-0 mt-3 mt-lg-0 pr-lg-5">
             <div className="text-center text-lg-left">
               <HeroTitle title={title} />
@@ -233,7 +233,7 @@ export const KitcomunicazionePage = () => {
           </h2>
           <p className="col-12 col-lg-7 text-center text-lg-left">
             Scarica i template per realizzare il materiale da stampare in
-            occasione eventi e iniziative. I pacchetti compressi (.zip)
+            occasione di eventi e iniziative. I pacchetti compressi (.zip)
             contengono i files in formato .ai (Adobe Illustrator), .pdf e .jpg
           </p>
           <div className="mt-4 col-12 d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-2">
@@ -247,8 +247,8 @@ export const KitcomunicazionePage = () => {
             Social media
           </h2>
           <p className="col-12 col-lg-7 text-center text-lg-left">
-            Scarica i template per realizzare il materiale di promozion sui
-            Social media. I pacchetti compressi (.zip) contengono i files in
+            Scarica i template per realizzare il materiale di promozione sui
+            Social media. I pacchetti compressi (.zip) contengono i file in
             formato .ai (Adobe Illustrator), .pdf e .jpg
           </p>
           <div className="mt-4 col-12 d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-2">
