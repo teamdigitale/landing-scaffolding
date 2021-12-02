@@ -175,7 +175,7 @@ const NavHeader = (props) => {
                 </Link>
               </NavItem>
             </Nav>
-            {/* <Nav navbar>
+            <Nav navbar>
               <NavItem>
                 <Link
                   to={internalLinks.catalogue.linkTo}
@@ -188,7 +188,7 @@ const NavHeader = (props) => {
                   </span>
                 </Link>
               </NavItem>
-            </Nav> */}
+            </Nav>
           </div>
         </HeaderNav>
       </HeaderContent>

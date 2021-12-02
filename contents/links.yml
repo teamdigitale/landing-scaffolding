@@ -13,8 +13,8 @@ internalLinks:
     label: Vantaggi
     linkTop: "#mainTop"
   catalogue:
-    linkTo: "/#perlapa"
-    label: Kit di comunicazione 2
+    linkTo: "/kit-comunicazione-pa/"
+    label: Kit di comunicazione
     linkTop: "#mainTop"
   glossary:
     linkTo: /kit-comunicazione-pa/
