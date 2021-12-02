@@ -187,7 +187,7 @@ export const KitcomunicazionePage = () => {
                         to="#eventiIniziativeEl"
                         className="btn-icon text-decoration-none font-weight-semibold"
                       >
-                        Eventi iniziative
+                        Eventi e iniziative
                       </Link>
                     </div>
                     <div className="col-6 pr-0 pr-md-5 mb-3">
@@ -248,7 +248,7 @@ export const KitcomunicazionePage = () => {
           </h2>
           <p className="col-12 col-lg-7 text-center text-lg-left">
             Scarica i template per realizzare il materiale di promozione sui
-            Social media. I pacchetti compressi (.zip) contengono i file in
+            social media. I pacchetti compressi (.zip) contengono i file in
             formato .ai (Adobe Illustrator), .pdf e .jpg
           </p>
           <div className="mt-4 col-12 d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-2">
@@ -271,7 +271,7 @@ export const KitcomunicazionePage = () => {
           </div>
         </div>
         <p className="text-right">
-          <em>ultimo aggiornamento: 01/12/2021</em>
+          <em>ultimo aggiornamento: 02/12/2021</em>
         </p>
       </Hero>
     </>
