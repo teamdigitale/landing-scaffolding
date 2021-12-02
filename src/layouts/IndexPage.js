@@ -14,7 +14,7 @@ export const IndexPage = () => {
       <StrategySection />
       <BenefitSection />
       <NewsPreviewSection />
-      {/* <EnablementSection /> */}
+      <EnablementSection />
     </>
   );
 };
