@@ -66,7 +66,7 @@ export const KitcomunicazionePage = () => {
     {
       title: "Locandina",
       subtitle: "Scarica .zip(32,7Mb)",
-      link: "/assets/kit-comunicazione/Locaandina.zip",
+      link: "/assets/kit-comunicazione/Locandina.zip",
     },
     {
       title: "RollUp",
