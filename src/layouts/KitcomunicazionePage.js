@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import { createUseStyles } from "react-jss";
-import { graphql, useStaticQuery, Link } from "gatsby";
+import { graphql, Link } from "gatsby";
 import { Card, CardBody, Icon } from "design-react-kit";
 
 import { HeroTitle } from "../components/hero/HeroTitle.js";
@@ -47,13 +47,11 @@ const useStyles = createUseStyles({
 });
 
 export const KitcomunicazionePage = () => {
-  const classes = useStyles();
-
   const guidaUtilizzo = [
     {
       title: "Guida all'utilizzo",
-      subtitle: "Scarica .pdf(24,5Mb)",
-      link: "/assets/kit-comunicazione/Guida-utilizzo-def.pdf",
+      subtitle: "Scarica .pdf(11,3Mb)",
+      link: "/assets/kit-comunicazione/ID-Kit-di-comunicazione_ver_dic2021.pdf",
     },
   ];
 
