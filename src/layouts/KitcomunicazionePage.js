@@ -58,7 +58,7 @@ export const KitcomunicazionePage = () => {
   const eventiIniziative = [
     {
       title: "Flyer",
-      subtitle: "Scarica .zip(77,5Mb)",
+      subtitle: "Scarica .zip(80,4Mb)",
       link: "/assets/kit-comunicazione/Flyer.zip",
     },
     {
