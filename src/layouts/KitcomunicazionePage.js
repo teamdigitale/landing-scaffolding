@@ -49,52 +49,52 @@ const useStyles = createUseStyles({
 export const KitcomunicazionePage = () => {
   const guidaUtilizzo = [
     {
-      title: "Guida all'utilizzo",
-      subtitle: "Scarica .pdf(11,3Mb)",
+      title: "Guida all'utilizzo (PDF)",
+      subtitle: "Scarica (11,3MiB)",
       link: "/assets/kit-comunicazione/ID-Kit-di-comunicazione_ver_dic2021.pdf",
     },
   ];
 
   const eventiIniziative = [
     {
-      title: "Flyer",
-      subtitle: "Scarica .zip(77,5Mb)",
+      title: "Flyer (ZIP)",
+      subtitle: "Scarica (77,5MiB)",
       link: "/assets/kit-comunicazione/Flyer.zip",
     },
     {
-      title: "Locandina",
-      subtitle: "Scarica .zip(32,7Mb)",
+      title: "Locandina (ZIP)",
+      subtitle: "Scarica (32,7MiB)",
       link: "/assets/kit-comunicazione/Locandina.zip",
     },
     {
-      title: "RollUp",
-      subtitle: "Scarica .zip(40Mb)",
+      title: "RollUp (ZIP)",
+      subtitle: "Scarica (40MiB)",
       link: "/assets/kit-comunicazione/RollUp.zip",
     },
   ];
 
   const socialMedia = [
     {
-      title: "Cover profile picture",
-      subtitle: "Scarica .zip(38,1Mb)",
+      title: "Cover profile picture (ZIP)",
+      subtitle: "Scarica (38,1MiB)",
       link: "/assets/kit-comunicazione/cover-profilepic.zip",
     },
     {
-      title: "Post",
-      subtitle: "Scarica .zip(55,3Mb)",
+      title: "Post (ZIP)",
+      subtitle: "Scarica (55,3MiB)",
       link: "/assets/kit-comunicazione/post.zip",
     },
     {
-      title: "Stories",
-      subtitle: "Scarica .zip(16,1Mb)",
+      title: "Stories (ZIP)",
+      subtitle: "Scarica (16,1MiB)",
       link: "/assets/kit-comunicazione/stories.zip",
     },
   ];
 
   const canaliDigitali = [
     {
-      title: "Canali digitali",
-      subtitle: "Scarica .zip(72,8Mb)",
+      title: "Canali digitali (ZIP)",
+      subtitle: "Scarica (72,8MiB)",
       link: "/assets/kit-comunicazione/canali-digitali.zip",
     },
   ];
