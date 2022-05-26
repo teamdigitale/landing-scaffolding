@@ -1,7 +1,7 @@
 # Note legali
 
 La Presidenza del Consiglio dei Ministri - Dipartimento per la trasformazione
-digitale, con sede in Largo Pietro di Brazzà 86, 00186 Roma, ha realizzato
+digitale, con sede in Largo Pietro di Brazzà 86, 00187 Roma, ha realizzato
 questo sito con lo scopo di diffondere le informazioni utili ai cittadini
 relative all’identità digitale e alle soluzioni del Sistema Pubblico di
 Identità Digitale (SPID) e della Carta di Identità Elettronica (CIE).
