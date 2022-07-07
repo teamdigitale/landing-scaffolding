@@ -6,7 +6,7 @@ import labels from "../../contents/labels.yml";
 import { ExternalLink } from "../components/ExternalLink.js";
 
 const {
-  internalLinks: { privacy, credits, noteLegali },
+  internalLinks: { privacy, credits, noteLegali, supportoAccessibilita },
   externalLinks: { dipartimento, agid, a11y },
 } = links;
 
@@ -43,6 +43,14 @@ const SlimFooter = () => {
     <div className={classes.slimFooter}>
       <div className="container">
         <ul className="list-inline link-list mb-0 text-center text-md-left">
+          <li className="list-inline-item mr-0 mr-md-5">
+            <Link
+              to={supportoAccessibilita.linkTo}
+              className="list-item mid-footer-link mx-4 mx-md-0"
+            >
+              {supportoAccessibilita.label}
+            </Link>
+          </li>
           <li className="list-inline-item mr-0 mr-md-5">
             <Link
               to={noteLegali.linkTo}
@@ -114,14 +122,14 @@ const MainFooter = () => {
             <div aria-hidden="true" className={classes.logoSeparator} />
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12 d-flex flex-column flex-md-row px-5 pt-0 pb-4">
             <div
               className="small"
               dangerouslySetInnerHTML={{ __html: footerA11y }}
             ></div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

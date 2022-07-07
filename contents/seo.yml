@@ -16,3 +16,6 @@ notFoundPage:
 KitcomunicazionePage:
   title: Kit di comunicazione
   description: Scarica i kit di counicazione per la PA
+SupportoAccessibilitaPage:
+  title: Hai bisogno di chiarimenti o supporto?
+  description: Scopri come ricevere assistenza per il Sistema Pubblico di Identità Digitale (SPID) e per la Carta di Identità Elettronica (CIE)
