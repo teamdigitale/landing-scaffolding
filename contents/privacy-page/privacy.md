@@ -9,7 +9,7 @@ che ci fornisci direttamente o di cui comunque potremo venire in possesso tramit
 
 ## Titolare del trattamento
 {class="h4"}
-Titolare del Trattamento è la Presidenza del Consiglio dei Ministri - Dipartimento per la Trasformazione Digitale, con sede in Largo Pietro di Brazzà 86, 00186 Roma
+Titolare del Trattamento è la Presidenza del Consiglio dei Ministri - Dipartimento per la Trasformazione Digitale, con sede in Largo Pietro di Brazzà 86, 00187 Roma
 contattabile ai seguenti recapiti:
 - Email: [segreteria.trasformazionedigitale@governo.it](mailto:segreteria.trasformazionedigitale@governo.it){class="text-decoration-none font-weight-semibold"};
 - PEC: [diptrasformazionedigitale@pec.governo.it](mailto:diptrasformazionedigitale@pec.governo.it){class="text-decoration-none font-weight-semibold"}.
@@ -19,7 +19,7 @@ contattabile ai seguenti recapiti:
 
 Il Responsabile per la protezione dei dati - Data Protection Officer, è contattabile ai seguenti recapiti:
 - Email: [responsabileprotezionedatipcm@governo.it](mailto:responsabileprotezionedatipcm@governo.it){class="text-decoration-none font-weight-semibold"};
-- PEC: [USG@mailbox.governo.it](mailto:USG@mailbox.governo.it){class="text-decoration-none font-weight-semibold"}.
+- PEC: [rpd@pec.governo.it](mailto:rpd@pec.governo.it){class="text-decoration-none font-weight-semibold"}.
 
 ## Come vengono trattati i tuoi dati personali - periodo di conservazione - base giuridica
 {class="h4"}
@@ -71,34 +71,23 @@ Se invece ritieni che il trattamento dei dati personali a te riferiti avvenga in
 ## Cookie
 {class="h4"}
 
-Questa sezione fornisce informazioni dettagliate sull'uso dei cookie, su come sono
-utilizzati dal sito e su come gestirli, in attuazione dell’art. 122 del decreto
-legislativo 30 giugno 2003, n. 196, nonché nel rispetto delle
+Questa sezione fornisce informazioni dettagliate sull’uso dei cookie, su come
+sono utilizzati dal sito e su come gestirli, in attuazione dell’art. 122 del
+decreto legislativo 30 giugno 2003, n. 196, nonché nel rispetto delle
 “[Linee guida cookie e altri strumenti di tracciamento](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9677876)”
-emanate dal Garante per la protezione dei dati personali con provvedimento
-del 10 giugno 2021.
+emanate dal Garante per la protezione dei dati personali con provvedimento del
+10 giugno 2021.
 
-[identitadigitale.gov.it](https://identitadigitale.gov.it/){class="text-decoration-none font-weight-semibold"} utilizza
-cookie tecnici al fine di garantire il corretto funzionamento delle procedure e migliorare l'esperienza
-d'uso dei propri visitatori, il cui uso non è strumentale alla raccolta di dati personali identificativi
-dell'utente. Per questo motivo non abbiamo bisogno del tuo consenso per
-memorizzare i cookie.
-Utilizziamo anche i seguenti cookie analitici:
-* il servizio Google Analytics, la cui policy può essere visionata a
-  [questo link](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage).
-  Al fine di rispettare la privacy degli utenti, il servizio è utilizzato con la modalità
-  “anonymizeIp” che consente di mascherare gli indirizzi IP degli utenti che navigano
-  sul sito ([maggiori informazioni sulla funzionalità](https://support.google.com/analytics/answer/2763052?hl=it)).
-  È possibile comunque effettuare l’[opt-out da Google Analytics](https://tools.google.com/dlpage/gaoptout?hl=en);
-* il servizio "Web Analytics Italia" (WAI) fornito da AGID che raccoglie dati
-  statistici anonimi mediante IP anonimizzato relativi alle visite del sito Internet
-  da parte degli utenti.
-
-Inoltre noi e i nostri fornitori ci asteniamo dal combinare questi cookie con altre
-elaborazioni né li trasmettiamo a terzi.
-Tali cookie vengono conservati per un periodo non superiore a 13 mesi dal momento della
-raccolta, salvo che la loro ulteriore conservazione non si renda necessaria per
-l’accertamento di reati. 
+Il sito non utilizza cookie per la profilazione degli utenti, ma soltanto cookie
+tecnici al fine di garantire il corretto funzionamento delle procedure e
+migliorare l’esperienza d’uso dei propri visitatori, il cui uso non è
+strumentale alla raccolta di dati personali identificativi dell’utente, nonché
+cookie analitici volti alla raccolta di informazioni, in forma aggregata, sul
+numero degli utenti e su come gli stessi visitano il sito. In particolare,
+utilizziamo il servizio Web Analytics Italia fornito da AGID che prevede
+l'anonimizzazione dell'indirizzo IP dell' utente; per maggiori
+informazioni sulle funzionalità di WAI si rimanda alle
+[domande frequenti di AGID](https://webanalytics.italia.it/faq).
 
 ## Come disabilitare i cookie (opt-out) sul proprio dispositivo
 {class="h4"}
@@ -115,4 +104,4 @@ Nel caso in cui si disabilitino tutti i cookie il sito potrebbe non funzionare c
 - [Edge](https://support.microsoft.com/it-it/help/4027947/microsoft-edge-delete-cookies){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Edge (link esterno)'}
 - [Opera](https://help.opera.com/en/latest/web-preferences/#cookies){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Opera (link esterno)'}
 
-<p class="text-right"><em>ultimo aggiornamento: 30/12/2021</em></p>
+<p class="text-right"><em>ultimo aggiornamento: 13/09/2022</em></p>
