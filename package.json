@@ -21,7 +21,7 @@
     "bootstrap-italia": "^1.4.3",
     "classnames": "^2.3.1",
     "design-react-kit": "^3.3.3",
-    "gatsby": "^3.2.1",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-image": "^1.2.1",
     "gatsby-plugin-matomo": "0.10.0",
     "luxon": "^1.28.1",
